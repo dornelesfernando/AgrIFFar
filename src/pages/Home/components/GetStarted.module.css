@@ -1,0 +1,48 @@
+.get_started{
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.get_started .header{
+    align-self: center;
+    color: #fff;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 72px;
+}
+
+.get_started .boxes {
+    display: flex;
+    flex-direction: column;
+}
+
+.get_started .boxes .boxText {
+    width: 50%;
+    margin-top: 25px;
+    animation: toRight 1s;
+}
+
+.get_started .boxes .right {
+    align-self: flex-end;
+    text-align: right;  
+    animation: toLeft 1s; 
+}
+
+.get_started .boxes .boxText .info_text{
+    align-self: center;
+    color: #ccc;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px;
+    letter-spacing: 0.5px;
+}
+
+.get_started .info_text{
+    align-self: center;
+    color: #ccc;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px;
+    letter-spacing: 0.5px;
+}

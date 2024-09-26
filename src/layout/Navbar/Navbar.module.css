@@ -1,0 +1,90 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.toggler{
+    font-size: 2rem;
+    color: #c5c3c3;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    display: none;
+}
+
+.nav_btn{
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    width: 120px;
+    height: 50px;
+    color: #ccc;
+    font-size: 20px;
+}
+
+.nav_btn:hover{
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.logo{
+    background: linear-gradient(95deg, #aac963 3.2%, #84b59a 99.5%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.root {
+    display: none;
+    position: absolute;
+    margin-left: 140px;
+    height: 50px;
+    width: 50px;
+}
+
+.logo:hover + .root {
+    display: block;
+    animation: toRight 0.8s;
+}
+
+.item{
+    font-size: 16px;
+    color: #ccc;
+    cursor: pointer;
+}
+
+.item:hover{
+    background: linear-gradient(95deg, #aac963 3.2%, #84b59a 99.5%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border-bottom: 1px solid #7e22ce;
+}
+
+.item:not(:last-child){
+    margin-right: 20px;
+}
+
+.nav_buttons.active{
+    transition: all 0.3s ease;
+    opacity: 1;
+}
+
+@media screen and (max-width: 925px) {
+    .nav_links{
+        display: none;
+    }
+
+    .nav_buttons{
+        opacity: 0;
+    }
+
+    .toggler{
+        display: flex !important;
+        align-items: center;
+    }
+}
