@@ -8,14 +8,16 @@ import Footer from '../../layout/Footer/Footer.jsx'
 
 function Home() {
   return (
-    <div className={styles.main}>
-        <Navbar />
-        <TopContainer />
-        <GetStarted />
-        <Images />
-        <EquipeInfo />
-        <Footer />
-    </div>
+    <>
+      <div className={styles.main}>
+          <Navbar />
+          <TopContainer />
+          <GetStarted />
+          <Images />
+          <EquipeInfo />
+          <Footer />
+      </div>
+    </>
   )
 }
 
