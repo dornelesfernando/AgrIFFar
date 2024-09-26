@@ -3,6 +3,7 @@ import Navbar from '../../layout/Navbar/Navbar.jsx'
 import TopContainer from './components/TopContainer.jsx'
 import GetStarted from './components/GetStarted.jsx'
 import Images from './components/Images.jsx'
+import EquipeInfo from './components/EquipeInfo.jsx'
 import Footer from '../../layout/Footer/Footer.jsx'
 
 function Home() {
@@ -12,7 +13,7 @@ function Home() {
         <TopContainer />
         <GetStarted />
         <Images />
-         {/* equipe info */} 
+        <EquipeInfo />
         <Footer />
     </div>
   )
