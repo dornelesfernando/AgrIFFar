@@ -1,16 +1,16 @@
-.topContainer {
+.topContainer{
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-top: 5rem;
 }
 
-.info_box{
+.topContainer .info_box{
     max-width: 50%;
     animation: toRight 0.8s;
 }
 
-.header{
+.topContainer .header{
     margin: 0;
     color: #fff;
     font-size: 3rem;
@@ -18,7 +18,7 @@
     line-height: 55px;
 }
 
-.info_text{
+.topContainer .info_text{
     margin: 20px 0 32px;
     color: #fff;
     font-size: 20px;
@@ -27,12 +27,12 @@
     font-weight: 400;
 }
 
-.info_buttons{
+.topContainer .info_buttons{
     display: flex;
     justify-content: flex-end;
 }
 
-.info_btn{
+.topContainer .info_btn{
     cursor: pointer;
     padding: 8px 38px;
     border-radius: 25px;
@@ -42,41 +42,24 @@
     color: #fff;
 }
 
-.info_btn .nav_btn{
+.nav_btn{
     margin-left: 20px;
     background-color: transparent;
     border: 1px solid #fff;
 }
 
-.info-btn:hover{
+.topContainer .info_btn:hover{
     border: none;
     background: linear-gradient(95deg, #aac963 3.2%, #84b59a 99.5%);
 }
 
-.nft_box{
+.topContainer .nft_box{
     animation: toLeft 0.8s;
 }
 
-.nft_pic{
+.topContainer .nft_pic{
     object-fit: cover;
     width: 500px;
     height: 500px;
     border-bottom-left-radius: 25%;
-}
-
-.footerTop{
-    padding-top: 50px;
-    display: flex;
-    justify-content: space-around;
-}
-
-.footerTop .box .header{
-    font-size: 24px;
-}
-
-.footerTop .box .info_text{
-    max-width: 20ch;
-    font-size: 16px;
-    font-weight: 400;
-    margin: 10px 0 32px;
 }
