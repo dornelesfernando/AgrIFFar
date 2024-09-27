@@ -1,20 +1,3 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-    text-decoration: none;
-}
-
-body{
-    background-color: #b1dcc3; /* #b1dcc3 verde*/
-    width: 100%;
-    height: 100%;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-}
-
 .info-text {
     text-align: center;
 }

@@ -6,7 +6,7 @@ function Footer (){
             <div className={styles.footer}>
 
                 <div className={styles.copyright}>
-                    <p>Copyright 2024, Agriffar LabIfMaker.</p>
+                    <p>Copyright &copy;2024, Agriffar LabIfMaker.</p>
                 </div>		
 
                 <div className={styles.footer_header}>
