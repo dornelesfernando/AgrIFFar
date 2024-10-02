@@ -1,20 +1,23 @@
-.navbar{
+/* Navbar.module.css */
+
+.navbar {
+    padding: 20px 88px; /* Consolidado o padding em uma única linha */
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px 0;
+    position: relative; /* Para que a imagem possa ser posicionada corretamente */
 }
 
-.toggler{
+.toggler {
     font-size: 2rem;
     color: #c5c3c3;
     background-color: transparent;
     cursor: pointer;
     border: none;
-    display: none;
+    display: none; /* Inicialmente escondido para telas maiores */
 }
 
-.nav_btn{
+.nav_btn {
     cursor: pointer;
     background-color: transparent;
     border: none;
@@ -24,40 +27,54 @@
     font-size: 20px;
 }
 
-.nav_btn:hover{
+.nav_btn:hover {
     border: 1px solid #ccc;
     border-radius: 8px;
 }
 
-.logo{
+.logo {
     background: linear-gradient(95deg, #aac963 3.2%, #84b59a 99.5%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: 700;
     font-size: 36px;
+    position: relative; /* Para posicionar a imagem em relação ao logo */
 }
 
 .root {
-    display: none;
     position: absolute;
-    margin-left: 140px;
-    height: 50px;
-    width: 50px;
+    left: 50%; /* Centraliza horizontalmente */
+    transform: translateX(-50%) translateY(-10px); /* Começa um pouco acima */
+    margin-top: 10px; /* Margem superior para afastar da logo */
+    height: 75px;
+    width: 75px;
+    z-index: 10; /* Garante que a imagem apareça acima de outros elementos */
+    opacity: 0; /* Começa invisível */
+    transition: opacity 0.4s ease, transform 0.4s ease; /* Transição suave */
 }
 
+/* Animação de entrada */
 .logo:hover + .root {
-    display: block;
-    animation: toRight 0.8s;
+    opacity: 1; /* Torna a imagem visível */
+    transform: translateX(-50%) translateY(0); /* Vai para a posição correta */
 }
 
-.item{
+/* Animação de saída */
+.root.exit {
+    opacity: 0; /* Torna a imagem invisível */
+    transform: translateX(-50%) translateY(-10px); /* Sobe um pouco enquanto desaparece */
+    transition: opacity 0.4s ease, transform 0.4s ease; /* Transição suave */
+}
+
+/* Item do menu */
+.item {
     font-size: 16px;
     color: #ccc;
     cursor: pointer;
 }
 
-.item:hover{
+.item:hover {
     background: linear-gradient(95deg, #aac963 3.2%, #84b59a 99.5%);
     background-clip: text;
     -webkit-background-clip: text;
@@ -65,26 +82,27 @@
     border-bottom: 1px solid #7e22ce;
 }
 
-.item:not(:last-child){
-    margin-right: 20px;
+.item:not(:last-child) {
+    margin-right: 20px; /* Margem para itens, exceto o último */
 }
 
-.nav_buttons.active{
+.nav_buttons.active {
     transition: all 0.3s ease;
-    opacity: 1;
+    opacity: 1; /* Pode ser ajustado conforme necessário */
 }
 
+/* Estilos responsivos */
 @media screen and (max-width: 925px) {
-    .nav_links{
-        display: none;
+    .nav_links {
+        display: none; /* Escondido em telas menores */
     }
 
-    .nav_buttons{
-        opacity: 0;
+    .nav_buttons {
+        opacity: 0; /* Invisível em telas menores */
     }
 
-    .toggler{
-        display: flex !important;
-        align-items: center;
+    .toggler {
+        display: flex !important; /* Mostra o toggler em telas menores */
+        align-items: center; /* Centraliza verticalmente */
     }
 }
