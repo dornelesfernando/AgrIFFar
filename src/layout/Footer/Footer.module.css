@@ -1,51 +1,85 @@
-.footer{
-    border: #7e22ce 2px solid;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+/* Footer.module.css */
+.footer {
+    background-color: #1a1a1a; /* Cor de fundo escura */
+    color: #f1f1f1; /* Cor do texto clara */
+    padding: 40px 0; /* Espaçamento interno */
+    text-align: center; /* Centraliza o texto */
 }
 
-.copyright{
-    padding-bottom: 25px;
-    border-top: 1px solid #ccc;
+.container {
+    display: flex; /* Usar flexbox para layout */
+    justify-content: space-between; /* Espaçar os elementos */
+    align-items: flex-start; /* Alinhar verticalmente */
+    flex-wrap: wrap; /* Permite quebra de linha em telas pequenas */
+    max-width: 1200px; /* Largura máxima */
+    margin: 0 auto; /* Centraliza o container */
+    padding: 0 20px; /* Espaçamento interno */
 }
 
-.footer_header{
-    max-width: 50%;
-    font-weight: 500;
-    font-size: 30px;
-    line-height: 40px;
-    color: #fff;
+.about, .support, .socials, .newsletter {
+    flex: 1; /* Cada seção ocupa um espaço igual */
+    margin: 10px; /* Margem entre seções */
+    min-width: 220px; /* Largura mínima para seções */
 }
 
-.footer_links{
-    display: flex;
+h4 {
+    margin-bottom: 10px; /* Espaçamento abaixo do título */
 }
 
-.link{
-    margin-left: 70px;
+p {
+    margin: 0 0 10px; /* Margem abaixo do parágrafo */
 }
 
-.link h5{
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 40px;
-    color: #fff;
+.link {
+    color: #61dafb; /* Cor dos links */
+    text-decoration: none; /* Remove o sublinhado */
 }
 
-.link p{
-    font-size: 12px;
-    line-height: 18px;
-    letter-spacing: 0.05em;
-    color: #ccc;
+.link:hover {
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
 }
 
-.link_href{
-    text-decoration: none;
+.socialIcons {
+    display: flex; /* Flexbox para os ícones sociais */
+    justify-content: center; /* Centraliza os ícones */
 }
 
-.copyright p{
-    font-size: 12px;
-    line-height: 36px;
-    color: #afafaf;
+.icon {
+    margin: 0 10px; /* Espaçamento entre os ícones */
+    color: #61dafb; /* Cor dos ícones */
+    text-decoration: none; /* Remove sublinhado */
+}
+
+.icon:hover {
+    color: #21a1f1; /* Cor ao passar o mouse */
+}
+
+.newsletter {
+    margin-top: 20px; /* Margem superior para a newsletter */
+}
+
+.emailInput {
+    padding: 10px; /* Espaçamento interno do campo de input */
+    border: none; /* Remove a borda */
+    border-radius: 5px; /* Bordas arredondadas */
+    margin-right: 10px; /* Espaçamento à direita do campo */
+}
+
+.subscribeButton {
+    padding: 10px 15px; /* Espaçamento interno do botão */
+    background-color: #61dafb; /* Cor de fundo do botão */
+    border: none; /* Remove a borda */
+    border-radius: 5px; /* Bordas arredondadas */
+    cursor: pointer; /* Altera o cursor ao passar o mouse */
+}
+
+.subscribeButton:hover {
+    background-color: #21a1f1; /* Cor do botão ao passar o mouse */
+}
+
+.copyRight {
+    margin-top: 20px; /* Espaçamento acima do copyright */
+    font-size: 14px; /* Tamanho da fonte */
+    border-top: 1px solid #444; /* Linha separadora */
+    padding-top: 10px; /* Espaçamento acima do copyright */
 }
