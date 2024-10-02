@@ -1,0 +1,56 @@
+[
+    {
+        "imgSrc": "/img/fernando.jpg",
+        "name": "Fernando Dorneles da Silva",
+        "position": "Bolsista",
+        "curse": "Téc. Informática"
+    },
+    {
+        "imgSrc": "./img/fernando.jpg",
+        "name": "Luis Eduardo Baumgartner de Quadra",
+        "position": "Bolsista",
+        "curse": "Téc. Informática"
+    },
+    {
+        "imgSrc": "/img/Ana.jpg",
+        "name": "Ana Laura Hepp Galarça",
+        "position": "Bolsista",
+        "curse": "Téc. Manutenção"
+    },
+    {
+        "imgSrc": "/img/Mauricio.jpg",
+        "name": "Mauricio Bilharva Melo",
+        "position": "Bank Manager",
+        "curse": ""
+    },
+    {
+        "imgSrc": "/img/Tiarla.jpeg",
+        "name": "Tiarla Regina Borgartz Schreiber",
+        "position": "Bank Manager",
+        "curse": ""
+    },
+    {
+        "imgSrc": "/img/Marcio.jpg",
+        "name": "Marcio Cristiano Augusto Brune",
+        "position": "App Designer",
+        "curse": ""
+    },
+    {
+        "imgSrc": "/img/Manoela.jpg",
+        "name": "Manoela Moraes dos Santos",
+        "position": "App Designer",
+        "curse": ""
+    },
+    {
+        "imgSrc": "/img/Thiago.jpg",
+        "name": "Thiago Mikael Copetti dos Santos",
+        "position": "App Designer",
+        "curse": ""
+    },
+    {
+        "imgSrc": "/img/Glenio.jpg",
+        "name": "Glenio Venes Flôres",
+        "position": "App Designer",
+        "curse": ""
+    }
+]
