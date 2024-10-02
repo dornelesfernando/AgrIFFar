@@ -1,59 +1,59 @@
 .wrapper {
-    margin-top: 2.5rem;
-    max-width: 1100px;
-    width: 100%;
-    position: relative;
+    margin-top: 2.5rem; /* Espaço acima do wrapper */
+    max-width: 1100px; /* Largura máxima do wrapper */
+    width: 100%; /* Largura total */
+    position: relative; /* Necessário para posicionar elementos internos */
 }
-  
+
 .wrapper i {
-    top: 50%;
-    height: 50px;
-    width: 50px;
-    cursor: pointer;
-    font-size: 1.25rem;
-    position: absolute;
-    text-align: center;
-    line-height: 50px;
-    background: #fff;
-    border-radius: 50%;
-    box-shadow: 0 3px 6px rgba(0,0,0,0.23);
-    transform: translateY(-50%);
-    transition: transform 0.1s linear;
+    z-index: 1; /* Coloca o ícone acima do conteúdo */
+    height: 50px; /* Altura do ícone */
+    width: 50px; /* Largura do ícone */
+    cursor: pointer; /* Cursor de ponteiro ao passar sobre o ícone */
+    font-size: 1.25rem; /* Tamanho da fonte */
+    position: absolute; /* Posiciona o ícone em relação ao wrapper */
+    text-align: center; /* Centraliza o texto dentro do ícone */
+    line-height: 50px; /* Alinha verticalmente o texto */
+    background: #fff; /* Cor de fundo do ícone */
+    border-radius: 50%; /* Forma circular */
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.23); /* Sombra suave */
+    transform: translateY(-50%); /* Centraliza verticalmente */
+    transition: transform 0.1s linear; /* Transição suave */
 }
-  
-.wrapper i:active{
-    transform: translateY(-50%) scale(0.85);
+
+.wrapper i:active {
+    transform: translateY(-50%) scale(0.85); /* Efeito ao clicar no ícone */
 }
-  
-.wrapper i:first-child{
-    left: -22px;
+
+.wrapper i:first-child {
+    left: -22px; /* Posiciona o primeiro ícone à esquerda */
 }
-  
-.wrapper i:last-child{
-    right: -22px;
+
+.wrapper i:last-child {
+    right: -22px; /* Posiciona o último ícone à direita */
 }
-  
-.wrapper .carousel{
-    display: grid;
-    grid-auto-flow: column;
-    grid-auto-columns: calc((100% / 3) - 12px);
-    overflow-x: auto;
-    scroll-snap-type: x mandatory;
-    gap: 16px;
-    border-radius: 8px;
-    scroll-behavior: smooth;
-    scrollbar-width: none;
+
+.wrapper .carousel {
+    display: grid; /* Utiliza grid para layout */
+    grid-auto-flow: column; /* Fluxo automático em colunas */
+    grid-auto-columns: calc((100% / 3) - 12px); /* Define largura das colunas */
+    overflow-x: auto; /* Permite rolagem horizontal */
+    scroll-snap-type: x mandatory; /* Habilita o snap do scroll */
+    gap: 16px; /* Espaçamento entre os itens do carousel */
+    border-radius: 8px; /* Bordas arredondadas do carousel */
+    scroll-behavior: smooth; /* Rolagem suave */
+    scrollbar-width: none; /* Oculta a barra de rolagem no Firefox */
 }
-  
+
 .carousel::-webkit-scrollbar {
-    display: none;
+    display: none; /* Oculta a barra de rolagem no Chrome e outros navegadores WebKit */
 }
-  
+
 .carousel.no_transition {
-    scroll-behavior: auto;
+    scroll-behavior: auto; /* Desativa a rolagem suave */
 }
-  
+
 .carousel.dragging {
-    scroll-snap-type: none;
-    scroll-behavior: auto;
+    scroll-snap-type: none; /* Desativa o snap durante o arrasto */
+    scroll-behavior: auto; /* Desativa a rolagem suave durante o arrasto */
 }
