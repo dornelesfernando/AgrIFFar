@@ -1,32 +1,47 @@
 .info-text {
-    text-align: center;
+    text-align: center; /* Centraliza o texto */
+    color: #fff; /* Cor do texto para maior legibilidade */
+    font-size: 1.2rem; /* Tamanho da fonte */
+    margin: 20px 0; /* Margens verticais para espaçamento */
 }
 
-.main{
-    padding: 0 88px;
-    position: relative;
-    overflow-x: hidden;
-    background-color: #198353; /* #198353verde mais escuro*/
+.main {
+    padding: 0 88px; /* Preenchimento lateral */
+    position: relative; /* Necessário para os pseudo-elementos */
+    overflow-x: hidden; /* Oculta o overflow horizontal */
+    background-color: #198353; /* Verde escuro */
+    min-height: 100vh; /* Garante que a seção ocupe a altura total da viewport */
+    display: flex; /* Usar Flexbox para alinhamento interno, se necessário */
+    flex-direction: column; /* Alinhamento em coluna */
 }
 
-.main::before{
+.main::before {
     content: "";
-    position: absolute;
-    width: 120px;
-    height: 120px;
-    left: 55%;
-    top: 20%;
-    background-color: #aac963; /* #aac963 verde abacate*/
-    filter: blur(90px);
+    position: absolute; /* Posição absoluta em relação ao .main */
+    width: 120px; /* Largura do círculo */
+    height: 120px; /* Altura do círculo */
+    left: 55%; /* Posicionamento horizontal */
+    top: 20%; /* Posicionamento vertical */
+    background-color: #aac963; /* Verde abacate */
+    filter: blur(90px); /* Efeito de desfoque */
+    border-radius: 50%; /* Forma circular */
+    z-index: 1; /* Garante que fique atrás do conteúdo */
 }
 
-.main::after{
+.main::after {
     content: "";
-    position: absolute;
-    width: 120px;
-    height: 120px;
-    left: 80%;
-    top: 44%;
-    background-color: #84b59a;
-    filter: blur(90px);
+    position: absolute; /* Posição absoluta em relação ao .main */
+    width: 120px; /* Largura do círculo */
+    height: 120px; /* Altura do círculo */
+    left: 80%; /* Posicionamento horizontal */
+    top: 44%; /* Posicionamento vertical */
+    background-color: #84b59a; /* Verde mais claro */
+    filter: blur(90px); /* Efeito de desfoque */
+    border-radius: 50%; /* Forma circular */
+    z-index: 1; /* Garante que fique atrás do conteúdo */
+}
+
+/* Adicionando uma sombra no fundo principal para um efeito mais moderno */
+.main {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15); /* Sombra suave */
 }

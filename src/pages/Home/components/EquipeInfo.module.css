@@ -1,25 +1,30 @@
-.equipe_info{
+.equipe_info {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: 100vh;
+    min-height: 100vh; /* Garante que o componente ocupe a altura total da viewport */
+    padding: 20px; /* Adiciona um padding para evitar que o texto encoste nas bordas */
 }
 
-.equipe_info .title{
-    margin-bottom: 25px;
+.equipe_info .title {
+    margin-bottom: 25px; /* Espaçamento abaixo do título */
     align-self: center;
-    color: #fff;
-    font-weight: 500;
-    font-size: 40px;
-    line-height: 72px;
+    color: #fff; /* Cor do texto */
+    font-weight: 600; /* Peso da fonte mais forte para o título */
+    font-size: 2.5rem; /* Tamanho da fonte aumentado para melhor legibilidade */
+    line-height: 1.2; /* Ajuste na altura da linha para melhor espaçamento */
+    text-align: center; /* Centraliza o texto do título */
 }
 
-.equipe_info .info_text{
+.equipe_info .info_text {
     align-self: center;
-    color: #ccc;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 36px;
-    letter-spacing: 0.5px;
+    color: #e0e0e0; /* Cor do texto mais suave para o texto secundário */
+    font-weight: 400; /* Peso da fonte */
+    font-size: 1.25rem; /* Tamanho da fonte ajustado para melhor legibilidade */
+    line-height: 1.6; /* Aumenta a altura da linha para mais espaço entre linhas */
+    letter-spacing: 0.5px; /* Espaçamento entre letras */
+    text-align: center; /* Centraliza o texto do parágrafo */
+    max-width: 800px; /* Limita a largura máxima do texto para melhorar a legibilidade */
+    padding: 0 20px; /* Adiciona padding lateral */
 }
