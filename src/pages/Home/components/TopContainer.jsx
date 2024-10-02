@@ -18,7 +18,7 @@ function TopContainer(){
                     </div>
                 </div>
                 <div className={styles.nft_box}>
-                    <img src="aaa" className={styles.nft_pic}/>
+                    <img src="/img/LogoAgriffar.jpg" className={styles.nft_pic}/>
                 </div>
             </div>
         </>
