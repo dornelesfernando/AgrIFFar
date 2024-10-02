@@ -6,7 +6,6 @@
 }
 
 .main {
-    padding: 0 88px; /* Preenchimento lateral */
     position: relative; /* Necessário para os pseudo-elementos */
     overflow-x: hidden; /* Oculta o overflow horizontal */
     background-color: #198353; /* Verde escuro */

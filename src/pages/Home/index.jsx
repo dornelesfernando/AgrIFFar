@@ -12,8 +12,8 @@ function Home() {
       <div className={styles.main}>
           <Navbar />
           <TopContainer />
-          <GetStarted />
           <Images />
+          <GetStarted />
           <EquipeInfo />
           <Footer />
       </div>

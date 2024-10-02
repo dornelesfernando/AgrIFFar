@@ -1,10 +1,11 @@
-.get_started{
-    margin-top: 10rem;
+.get_started {
+    padding: 0 88px;
+    margin-top: -5rem;
     display: flex;
     flex-direction: column;
 }
 
-.get_started .header{
+.get_started .header {
     align-self: center;
     color: #fff;
     font-weight: 500;
@@ -20,16 +21,27 @@
 .get_started .boxes .boxText {
     width: 50%;
     margin-top: 25px;
-    animation: toRight 1s;
+    opacity: 0; /* Inicialmente invisível */
+    transform: translateY(20px); /* Inicialmente deslocado para baixo */
+    transition: opacity 300ms ease-in-out, transform 300ms ease-in-out;
 }
 
-.get_started .boxes .right {
-    align-self: flex-end;
-    text-align: right;  
-    animation: toLeft 1s; 
+.get_started .boxes .boxText.visible {
+    opacity: 1; /* Torna visível */
+    transform: translateY(0); /* Retorna à posição original */
 }
 
-.get_started .boxes .boxText .info_text{
+.get_started .boxes .boxText.left {
+    align-self: flex-start; /* Alinhado à esquerda */
+    text-align: left; 
+}
+
+.get_started .boxes .boxText.right {
+    align-self: flex-end; /* Alinhado à direita */
+    text-align: right; 
+}
+
+.get_started .boxes .boxText .info_text {
     align-self: center;
     color: #ccc;
     font-weight: 400;
@@ -38,7 +50,7 @@
     letter-spacing: 0.5px;
 }
 
-.get_started .info_text{
+.get_started .info_text {
     align-self: center;
     color: #ccc;
     font-weight: 400;
