@@ -1,14 +1,13 @@
-import { Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from "./pages/Home";
-import SignUp from "./pages/SignUp";
-import LogIn from "./pages/LogIn";
+import UserAccess from "./pages/userAccess";
+import TopContainer from './TopContainer';
 
 function MainRoutes(){
     return (
         <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/signup" element={<SignUp />} />
-            <Route path="/login" element={<LogIn />} />
+            <Route path="/useraccess" element={<UserAccess />} />
         </Routes>
     )
 }
