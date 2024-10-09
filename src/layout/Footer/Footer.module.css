@@ -1,85 +1,70 @@
-/* Footer.module.css */
-.footer {
-    background-color: #1a1a1a; /* Cor de fundo escura */
-    color: #f1f1f1; /* Cor do texto clara */
-    padding: 40px 0; /* Espaçamento interno */
-    text-align: center; /* Centraliza o texto */
+.container{
+	max-width: 1170px;
+	margin:auto;
 }
-
-.container {
-    display: flex; /* Usar flexbox para layout */
-    justify-content: space-between; /* Espaçar os elementos */
-    align-items: flex-start; /* Alinhar verticalmente */
-    flex-wrap: wrap; /* Permite quebra de linha em telas pequenas */
-    max-width: 1200px; /* Largura máxima */
-    margin: 0 auto; /* Centraliza o container */
-    padding: 0 20px; /* Espaçamento interno */
+.row{
+	display: flex;
+	flex-wrap: wrap;
 }
-
-.about, .support, .socials, .newsletter {
-    flex: 1; /* Cada seção ocupa um espaço igual */
-    margin: 10px; /* Margem entre seções */
-    min-width: 220px; /* Largura mínima para seções */
+ul{
+	list-style: none;
 }
-
-h4 {
-    margin-bottom: 10px; /* Espaçamento abaixo do título */
+.footer{
+	background-color: #24262b;
+    padding: 70px 0;
 }
-
-p {
-    margin: 0 0 10px; /* Margem abaixo do parágrafo */
+.footerCol{
+   width: 25%;
+   padding: 0 15px;
 }
-
-.link {
-    color: #61dafb; /* Cor dos links */
-    text-decoration: none; /* Remove o sublinhado */
+.footerCol h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
 }
-
-.link:hover {
-    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+.footerCol h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
 }
-
-.socialIcons {
-    display: flex; /* Flexbox para os ícones sociais */
-    justify-content: center; /* Centraliza os ícones */
+.footerCol ul li:not(:last-child){
+	margin-bottom: 10px;
 }
-
-.icon {
-    margin: 0 10px; /* Espaçamento entre os ícones */
-    color: #61dafb; /* Cor dos ícones */
-    text-decoration: none; /* Remove sublinhado */
+.footerCol ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
 }
-
-.icon:hover {
-    color: #21a1f1; /* Cor ao passar o mouse */
+.footerCol ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
 }
-
-.newsletter {
-    margin-top: 20px; /* Margem superior para a newsletter */
+.footerCol .socialLinks a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
 }
-
-.emailInput {
-    padding: 10px; /* Espaçamento interno do campo de input */
-    border: none; /* Remove a borda */
-    border-radius: 5px; /* Bordas arredondadas */
-    margin-right: 10px; /* Espaçamento à direita do campo */
-}
-
-.subscribeButton {
-    padding: 10px 15px; /* Espaçamento interno do botão */
-    background-color: #61dafb; /* Cor de fundo do botão */
-    border: none; /* Remove a borda */
-    border-radius: 5px; /* Bordas arredondadas */
-    cursor: pointer; /* Altera o cursor ao passar o mouse */
-}
-
-.subscribeButton:hover {
-    background-color: #21a1f1; /* Cor do botão ao passar o mouse */
-}
-
-.copyRight {
-    margin-top: 20px; /* Espaçamento acima do copyright */
-    font-size: 14px; /* Tamanho da fonte */
-    border-top: 1px solid #444; /* Linha separadora */
-    padding-top: 10px; /* Espaçamento acima do copyright */
+.footerCol .socialLinks a:hover{
+	color: #24262b;
+	background-color: #ffffff;
 }

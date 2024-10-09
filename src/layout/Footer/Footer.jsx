@@ -1,45 +1,50 @@
 // Footer.js
 import React from 'react';
-import styles from './Footer.module.css';
+import styles from './Footer.module.css'; // Importando o CSS do módulo
 
 const Footer = () => {
     return (
         <footer className={styles.footer}>
             <div className={styles.container}>
-                <div className={styles.about}>
-                    <h4>Sobre Nós</h4>
-                    <p>Somos uma empresa dedicada a oferecer os melhores serviços e soluções para nossos clientes.</p>
-                    <p><a href="/sobre" className={styles.link}>Saiba mais</a></p>
-                </div>
-                <div className={styles.support}>
-                    <h4>Suporte</h4>
-                    <ul>
-                        <li><a href="/faq" className={styles.link}>FAQ</a></li>
-                        <li><a href="/contato" className={styles.link}>Contato</a></li>
-                        <li><a href="/política-de-privacidade" className={styles.link}>Política de Privacidade</a></li>
-                        <li><a href="/termos-de-serviço" className={styles.link}>Termos de Serviço</a></li>
-                    </ul>
-                </div>
-                <div className={styles.socials}>
-                    <h4>Siga-nos</h4>
-                    <div className={styles.socialIcons}>
-                        <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className={styles.icon}>Facebook</a>
-                        <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className={styles.icon}>Twitter</a>
-                        <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className={styles.icon}>Instagram</a>
-                        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className={styles.icon}>LinkedIn</a>
-                        <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" className={styles.icon}>YouTube</a>
+                <div className={styles.row}>
+                    <div className={styles.footerCol}>
+                        <h4>Company</h4>
+                        <ul>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Our Services</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Affiliate Program</a></li>
+                        </ul>
+                    </div>
+                    <div className={styles.footerCol}>
+                        <h4>Get Help</h4>
+                        <ul>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">Shipping</a></li>
+                            <li><a href="#">Returns</a></li>
+                            <li><a href="#">Order Status</a></li>
+                            <li><a href="#">Payment Options</a></li>
+                        </ul>
+                    </div>
+                    <div className={styles.footerCol}>
+                        <h4>Online Shop</h4>
+                        <ul>
+                            <li><a href="#">Watch</a></li>
+                            <li><a href="#">Bag</a></li>
+                            <li><a href="#">Shoes</a></li>
+                            <li><a href="#">Dress</a></li>
+                        </ul>
+                    </div>
+                    <div className={styles.footerCol}>
+                        <h4>Follow Us</h4>
+                        <div className={styles.socialLinks}>
+                            <a href="#"><i className={`${styles.fab} fa-facebook-f`}></i></a>
+                            <a href="#"><i className={`${styles.fab} fa-twitter`}></i></a>
+                            <a href="#"><i className={`${styles.fab} fa-instagram`}></i></a>
+                            <a href="#"><i className={`${styles.fab} fa-linkedin-in`}></i></a>
+                        </div>
                     </div>
                 </div>
-                <div className={styles.newsletter}>
-                    <h4>Inscreva-se na Newsletter</h4>
-                    <form>
-                        <input type="email" placeholder="Seu email" required className={styles.emailInput} />
-                        <button type="submit" className={styles.subscribeButton}>Inscrever-se</button>
-                    </form>
-                </div>
-            </div>
-            <div className={styles.copyRight}>
-                <p>&copy; 2024 Sua Empresa. Todos os direitos reservados.</p>
             </div>
         </footer>
     );
