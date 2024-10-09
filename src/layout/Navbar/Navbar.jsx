@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import styles from './Navbar.module.css';
+import { useNavigate } from 'react-router-dom';
 
 function Navbar() {
     const [showImage, setShowImage] = useState(false); // Estado para controlar a visibilidade da imagem
@@ -16,6 +17,12 @@ function Navbar() {
         setTimeout(() => {
             setShowImage(false);
         }, 400); // O tempo deve ser o mesmo que o da animação de saída
+    };
+
+    const navigate = useNavigate();
+
+    const handleButtonClick = (isLogin) => {
+        navigate('/UserAccess', { state: { isLogin } });
     };
 
     return (
@@ -39,12 +46,8 @@ function Navbar() {
             )}
 
             <div className={styles.nav_buttons} id="navMenu">
-                <a href="../agricultor/formularioagricultor.php"> 
-                    <button className={styles.nav_btn}>CADASTRO</button>
-                </a>
-                <a href="../login.php"> 
-                    <button className={styles.nav_btn}>LOGIN</button>
-                </a>
+                <button className={`${styles.info_btn} ${styles.nav_btn}`} onClick={() => handleButtonClick(true)}>CADASTRO</button>
+                <button className={`${styles.info_btn} ${styles.nav_btn}`} onClick={() => handleButtonClick(false)}>LOGIN</button>
             </div>
 
             <button className={styles.toggler}>
