@@ -1,7 +1,6 @@
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from "./pages/Home";
-import UserAccess from "./pages/userAccess";
-import TopContainer from './TopContainer';
+import UserAccess from "./pages/UserAccess/index.jsx";
 
 function MainRoutes(){
     return (
@@ -9,7 +8,7 @@ function MainRoutes(){
             <Route path="/" element={<Home />} />
             <Route path="/useraccess" element={<UserAccess />} />
         </Routes>
-    )
+    );
 }
 
 export default MainRoutes;

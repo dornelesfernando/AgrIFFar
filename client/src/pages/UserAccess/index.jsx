@@ -1,6 +1,5 @@
 import styles from './UserAccess.module.css';
 import { useLocation } from 'react-router-dom';
-import SocialIcons from './components/SocialIcons.jsx';
 import SignIn from './services/SignIn.jsx';
 import SignUp from './services/SignUp.jsx';
 import SignInText from './components/SignInText.jsx';
@@ -22,18 +21,10 @@ function UserAccess() {
         <div className={styles.centralize}>
             <div className={`${styles.container} ${isActive ? styles.active : ''}`} id="container">
                 <div className={`${styles.formContainer} ${styles.signUp}`}>
-                    <form>
-                        <h1>Create Account</h1>
-                        <SocialIcons />
-                        <SignUp />
-                    </form>
+                    <SignUp />
                 </div>
                 <div className={`${styles.formContainer} ${styles.signIn}`}>
-                    <form>
-                        <h1>Sign In</h1>
-                        <SocialIcons />
-                        <SignIn />
-                    </form>
+                    <SignIn />
                 </div>
                 <div className={styles.toggleContainer}>
                     <div className={styles.toggle}>
