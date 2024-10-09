@@ -1,4 +1,3 @@
-import React from 'react';
 import styles from './Carousel.module.css';
 import CardEquipe from './CardEquipe';
 import { useCarousel } from '../../../hooks/UseCarousel';
