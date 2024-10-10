@@ -1,28 +1,21 @@
 import SocialIcons from "../components/SocialIcons";
 import { useState } from "react";
+import Axios from "axios";
 
 function SignIn() {
-    const [email, setEmail] = useState("");
-    const [password, setPassword] = useState("");
+    const [email, setEmail] = useState('');
+    const [password, setPassword] = useState('');
 
     const handleSubmit = async (e) => {
         e.preventDefault();
-        const response = await fetch('http://localhost:5000/api/signin', {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json',
-            },
-            body: JSON.stringify({ email, password }),
+        Axios.post('http://localhost:5000/auth/login', {
+            email: email,
+            password: password,
+        }).then((response) => {
+            console.log(response);
+        }).catch((err) => {
+            console.error(err);
         });
-
-        const data = await response.json();
-        if (response.ok) {
-            // login bem-sucedido, redirecionar ou mostrar mensagem
-            console.log("Login bem-sucedido", data);
-        } else {
-            // falha no login, exibir erro
-            console.error("Erro de login", data);
-        }
     };
 
     return (
