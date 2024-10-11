@@ -6,6 +6,7 @@
 }
 
 .main {
+    background: linear-gradient(135deg, #198353 30%, #20945a 70%);  
     position: relative; /* Necessário para os pseudo-elementos */
     overflow-x: hidden; /* Oculta o overflow horizontal */
     min-height: 100vh; /* Garante que a seção ocupe a altura total da viewport */
