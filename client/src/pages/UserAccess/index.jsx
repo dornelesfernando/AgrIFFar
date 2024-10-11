@@ -5,6 +5,8 @@ import SignUp from './services/SignUp.jsx';
 import SignInText from './components/SignInText.jsx';
 import SignUpText from './components/SignUpText.jsx';
 import { useState, useEffect } from 'react';
+import Waves from '../../layout/Waves/Waves.jsx';
+import Watermark from '../../layout/Watermark/Watermark.jsx';
 
 function UserAccess() {
     const location = useLocation();
@@ -33,6 +35,8 @@ function UserAccess() {
                     </div>
                 </div>
             </div>
+            <Watermark />
+            <Waves />
         </div>
     );
 }
