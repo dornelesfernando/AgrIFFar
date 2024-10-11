@@ -12,6 +12,7 @@
 }
 
 .centralize {
+    background: linear-gradient(135deg, #198353 30%, #20945a 70%);  
     display: flex;
     align-items: center;
     justify-content: center;
