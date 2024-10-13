@@ -1,0 +1,153 @@
+{
+    "common": [
+        {
+            "href": "/dashboard",
+            "icon": "dashboard",
+            "label": "Dashboard"
+        },
+        {
+            "href": "/profile",
+            "icon": "person",
+            "label": "Perfil"
+        },
+        {
+            "href": "/settings",
+            "icon": "settings",
+            "label": "Configurações"
+        },
+        {
+            "href": "/logout",
+            "icon": "exit_to_app",
+            "label": "Sair"
+        }
+    ],
+    "admin": [
+        {
+            "href": "/admin/users",
+            "icon": "group",
+            "label": "Gerenciar Usuários"
+        },
+        {
+            "href": "/admin/overview",
+            "icon": "dashboard",
+            "label": "Visão Geral"
+        },
+        {
+            "href": "/admin/team",
+            "icon": "people",
+            "label": "Equipe"
+        },
+        {
+            "href": "/admin/reports",
+            "icon": "assessment",
+            "label": "Relatórios"
+        },
+        {
+            "href": "/admin/crops",
+            "icon": "agriculture",
+            "label": "Culturas"
+        },
+        {
+            "href": "/admin/fields",
+            "icon": "map",
+            "label": "Campos"
+        }
+    ],
+    "farmer": [
+        {
+            "href": "/farmer/crops",
+            "icon": "agriculture",
+            "label": "Minhas Culturas"
+        },
+        {
+            "href": "/farmer/reports",
+            "icon": "bar_chart",
+            "label": "Meus Relatórios"
+        },
+        {
+            "href": "/farmer/fields",
+            "icon": "map",
+            "label": "Meus Campos"
+        },
+        {
+            "href": "/farmer/field-crops",
+            "icon": "grain",
+            "label": "Culturas por Campo"
+        },
+        {
+            "href": "/farmer/field-crop-harvests",
+            "icon": "local_florist",
+            "label": "Colheitas por Campo"
+        },
+        {
+            "href": "/farmer/field-crop-treatments",
+            "icon": "medical_services",
+            "label": "Tratamentos"
+        },
+        {
+            "href": "/farmer/cash-flow",
+            "icon": "attach_money",
+            "label": "Fluxo de Caixa"
+        },
+        {
+            "href": "/farmer/cost",
+            "icon": "money",
+            "label": "Custos"
+        },
+        {
+            "href": "/farmer/depreciation",
+            "icon": "timeline",
+            "label": "Depreciação"
+        },
+        {
+            "href": "/farmer/harvest",
+            "icon": "grass",
+            "label": "Colheitas"
+        },
+        {
+            "href": "/farmer/inputs",
+            "icon": "inventory",
+            "label": "Insumos"
+        },
+        {
+            "href": "/farmer/investment",
+            "icon": "monetization_on",
+            "label": "Investimentos"
+        },
+        {
+            "href": "/farmer/machinery",
+            "icon": "construction",
+            "label": "Máquinas"
+        },
+        {
+            "href": "/farmer/maintenance",
+            "icon": "build",
+            "label": "Manutenção"
+        },
+        {
+            "href": "/farmer/planting",
+            "icon": "category",
+            "label": "Plantio"
+        },
+        {
+            "href": "/farmer/preparation",
+            "icon": "category",
+            "label": "Preparação"
+        },
+        {
+            "href": "/farmer/stock",
+            "icon": "inventory_2",
+            "label": "Estoque"
+        },
+        {
+            "href": "/farmer/tips",
+            "icon": "lightbulb",
+            "label": "Dicas"
+        },
+        {
+            "href": "/farmer/transport",
+            "icon": "directions_car",
+            "label": "Transporte"
+        }
+    ]
+}
