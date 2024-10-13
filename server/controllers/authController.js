@@ -48,7 +48,9 @@ const loginUser = (req, res) => {
         if (result.length > 0) {
             bcrypt.compare(password, result[0].password, (err, response) => {
                 if (response) {
-                    res.json({ success: true, message: 'Login bem-sucedido!' });
+                    res.json({ success: true, 
+                               message: 'Login bem-sucedido!',
+                               userType: result[0].userType});
                 } else {
                     res.json({ success: false, message: 'Senha incorreta!' });
                 }

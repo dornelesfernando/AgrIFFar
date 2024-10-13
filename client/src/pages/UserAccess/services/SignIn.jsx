@@ -19,6 +19,9 @@ function SignIn() {
             });
 
             if (response.data.success) {
+                // Armazena o tipo de usuário no localStorage
+                localStorage.setItem('userType', response.data.userType);
+
                 // Redireciona para o dashboard após o login bem-sucedido
                 navigate('/dashboard');
             } else {
