@@ -1,21 +1,33 @@
-import SocialIcons from "../components/SocialIcons";
+import SocialIcons from "../components/SocialIcons"; 
 import { useState } from "react";
+import { useNavigate } from 'react-router-dom';
 import Axios from "axios";
 
 function SignIn() {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
+    const [error, setError] = useState('');
+    const navigate = useNavigate();
 
     const handleSubmit = async (e) => {
         e.preventDefault();
-        Axios.post('http://localhost:5000/auth/login', {
-            email: email,
-            password: password,
-        }).then((response) => {
-            console.log(response);
-        }).catch((err) => {
+
+        try {
+            const response = await Axios.post('http://localhost:5000/auth/login', {
+                email: email,
+                password: password,
+            });
+
+            if (response.data.success) {
+                // Redireciona para o dashboard após o login bem-sucedido
+                navigate('/dashboard');
+            } else {
+                setError(response.data.message); // Mostra a mensagem de erro
+            }
+        } catch (err) {
             console.error(err);
-        });
+            setError('Ocorreu um erro durante o login. Tente novamente.');
+        }
     };
 
     return (
@@ -29,15 +41,18 @@ function SignIn() {
                     placeholder="Email"
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
+                    required
                 />
                 <input
                     type="password"
                     placeholder="Password"
                     value={password}
                     onChange={(e) => setPassword(e.target.value)}
+                    required
                 />
                 <a href="#">Forget Your Password?</a>
                 <button type="submit">Sign In</button>
+                {error && <p style={{ color: 'red' }}>{error}</p>}
             </form>
         </>
     );

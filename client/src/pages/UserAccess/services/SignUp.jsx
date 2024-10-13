@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import SocialIcons from "../components/SocialIcons";
 import Axios from 'axios';
 
@@ -8,21 +9,31 @@ function SignUp() {
     const [cpf, setCpf] = useState('');
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
+    const [error, setError] = useState('');
+    const navigate = useNavigate();
 
     const handleSubmit = async (e) => {
         e.preventDefault();
 
-        Axios.post('http://localhost:5000/auth/register', {
-            name: name,
-            phone: phone,
-            cpf: cpf,
-            email: email,
-            password: password,
-        }).then((response) => {
-            console.log(response);
-        }).catch((err) => {
+        try {
+            const response = await Axios.post('http://localhost:5000/auth/register', {
+                name: name,
+                phone: phone,
+                cpf: cpf,
+                email: email,
+                password: password,
+            });
+            
+            if (response.data.success) {
+                // Redireciona para o dashboard após o registro bem-sucedido
+                navigate('/dashboard');
+            } else {
+                setError(response.data.message); // Mostra a mensagem de erro
+            }
+        }   catch (err) {
             console.error(err);
-        });
+            setError('Ocorreu um erro durante o registro. Tente novamente.');
+        };
     };
 
     return (
@@ -62,6 +73,7 @@ function SignUp() {
                     onChange={(e) => setPassword(e.target.value)}
                 />
                 <button type="submit">Sign Up</button>
+                {error && <p style={{ color: 'red' }}>{error}</p>}
             </form>
         </>
     );

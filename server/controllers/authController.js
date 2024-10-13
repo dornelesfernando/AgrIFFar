@@ -12,12 +12,12 @@ const registerUser = (req, res) => {
         }
 
         if (result.length > 0) {
-            return res.send({ message: 'Usuário já existe!' });
+            return res.json({ success: false, message: 'Este e-mail já está cadastrado na plataforma!' });
         } else {
             bcrypt.hash(password, saltRounds, (err, hash) => {
                 if (err) {
                     console.error('Erro ao criptografar senha:', err);
-                    return res.status(500).send({ message: 'Erro ao registrar o usuário' });
+                    return res.status(500).json({ success: false, message: 'Erro ao registrar o usuário' });
                 }
                 
                 db.query(
@@ -28,7 +28,7 @@ const registerUser = (req, res) => {
                             console.error('Erro ao inserir usuário:', err);
                             return res.status(500).send({ message: 'Erro ao registrar o usuário' });
                         }
-                        res.send({ message: 'Usuário registrado com sucesso!' });
+                        res.json({ success: true, message: 'Usuário registrado com sucesso!' });
                     }
                 );
             });
@@ -48,13 +48,13 @@ const loginUser = (req, res) => {
         if (result.length > 0) {
             bcrypt.compare(password, result[0].password, (err, response) => {
                 if (response) {
-                    res.send({ message: 'Usuário logado!' });
+                    res.json({ success: true, message: 'Login bem-sucedido!' });
                 } else {
-                    res.send({ message: 'Senha incorreta!' });
+                    res.json({ success: false, message: 'Senha incorreta!' });
                 }
             });
         } else {
-            res.send({ message: 'Email não encontrado!' });
+            res.json({ success: false, message: 'Email não encontrado!' });
         }
     });
 };
