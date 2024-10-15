@@ -66,3 +66,16 @@
     font-size: 11px;
     border-radius: var(--border-radius-1);
 }
+
+.sidebar .logout{
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+    font-size: 1.6rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.sidebar .lastChildElement {
+    margin-bottom: 5rem;
+}

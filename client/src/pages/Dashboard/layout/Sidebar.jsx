@@ -21,6 +21,7 @@ function Sidebar({ userType }) {
                         href={item.href}
                         icon={item.icon}
                         label={item.label}
+                        lastChildElement={sidebarData.length - 1 === index}
                     />
                 ))}
             </div>
