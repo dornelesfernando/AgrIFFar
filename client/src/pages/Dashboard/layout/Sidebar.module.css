@@ -1,13 +1,16 @@
 .sidebar {
     width: 15rem;
+    height: calc(100vh - 10rem); /**/
     display: flex;
     flex-direction: column;
     background-color: var(--color-white);
+    background-color: black; /**/
     box-shadow: var(--box-shadow);
+    padding-top: 2rem;
     border-radius: 15px;
     overflow-y: auto;
-    position: relative;
-    top: 1.5rem;
+    position: fixed;
+    top: 6rem;
     transition: all 0.3s ease;
 }
 

@@ -3,6 +3,7 @@ import DashboardAdmin from './Admin';
 import DashboardFarmer from './Farmer';
 import Sidebar from './layout/Sidebar';
 import styles from './Dashboard.module.css';
+import Loading from '../../utils/Loading';
 
 const Dashboard = () => {
     const [userType, setUserType] = useState(null);
@@ -14,7 +15,7 @@ const Dashboard = () => {
     }, []);
 
     if (!userType) {
-        return <p>Carregando...</p>;
+        return < Loading />
     }
 
     return (

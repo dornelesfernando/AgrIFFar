@@ -9,7 +9,7 @@ function Sidebar({ userType }) {
         SidebarDashboardData[userType] || []
     );
 
-    console.log('Dados do Sidebar:', sidebarData); // Verifique os dados do sidebar
+    //console.log('Dados do Sidebar:', sidebarData); // Verifique os dados do sidebar
 
     return (
         <>
