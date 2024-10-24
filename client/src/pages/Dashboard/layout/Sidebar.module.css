@@ -1,21 +1,23 @@
 .sidebar {
     width: 15rem;
-    height: calc(100vh - 10rem); /**/
+    height: calc(100vh - 8rem); /* Altura fixa da sidebar, ocupando a tela */
     display: flex;
     flex-direction: column;
     background-color: var(--color-white);
-    background-color: black; /**/
     box-shadow: var(--box-shadow);
     padding-top: 2rem;
     border-radius: 15px;
-    overflow-y: auto;
     position: fixed;
     top: 6rem;
     transition: all 0.3s ease;
 }
 
-.sidebar:hover {
-    box-shadow: none;
+/* Estilo para os itens da sidebar */
+.sidebarItens {
+    flex: 1; /* Para ocupar todo o espaço disponível, menos o espaço do logout */
+    overflow-y: auto; /* A barra de rolagem será aplicada apenas aos itens */
+    padding-right: 1rem; /* Adiciona um espaçamento interno à direita para evitar sobreposição da barra */
+    max-height: 33rem;
 }
 
 .sidebar a {
@@ -25,9 +27,10 @@
     height: 3.7rem;
     gap: 1rem;
     position: relative;
-    margin-left: 1rem; /* Reduz o espaço à esquerda */
-    padding: 0 1rem; /* Adiciona padding ao invés de margem para melhor controle */
+    margin-left: 1rem;
+    padding: 0 1rem;
     transition: all 0.3s ease;
+    margin-bottom: 1rem; /* Adiciona espaçamento entre os itens */
 }
 
 .sidebar a span {
@@ -70,15 +73,46 @@
     border-radius: var(--border-radius-1);
 }
 
-.sidebar .logout{
-    position: absolute;
-    bottom: 1rem;
-    left: 1rem;
+.logoutWrapper {
+    display: flex;
+    padding-left: 1.5rem;
+    padding-bottom: 1rem;
+    position: absolute; /* Absoluto em relação à sidebar */
+    bottom: 0; /* Fixa no fundo */
+    left: 0;
+    width: 100%; /* Ocupa toda a largura do sidebar */
+    height: 5rem;
+}
+
+.logout {
+    display: flex;
+    align-items: center;
     font-size: 1.6rem;
+    color: var(--color-info-dark);
     cursor: pointer;
     transition: all 0.3s ease;
 }
 
-.sidebar .lastChildElement {
-    margin-bottom: 5rem;
+.logout:hover {
+    color: var(--color-primary);
+}
+
+/* Estilo da barra de rolagem apenas para os itens da sidebar */
+.sidebarItens::-webkit-scrollbar {
+    width: 10px; /* Largura da barra de rolagem */
+}
+
+.sidebarItens::-webkit-scrollbar-track {
+    background: var(--color-light); /* Cor do fundo da barra de rolagem */
+    border-radius: 10px; /* Bordas arredondadas */
+}
+
+.sidebarItens::-webkit-scrollbar-thumb {
+    background-color: var(--color-info-dark); /* Cor do "polegar" da barra de rolagem */
+    border-radius: 10px; /* Bordas arredondadas no polegar */
+    border: 2px solid var(--color-white); /* Borda ao redor do polegar */
+}
+
+.sidebarItens::-webkit-scrollbar-thumb:hover {
+    background-color: var(--color-primary); /* Cor ao passar o mouse sobre o polegar */
 }

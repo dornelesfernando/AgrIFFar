@@ -14,11 +14,6 @@
             "href": "/settings",
             "icon": "settings",
             "label": "Configurações"
-        },
-        {
-            "href": "/logout",
-            "icon": "exit_to_app",
-            "label": "Sair"
         }
     ],
     "admin": [

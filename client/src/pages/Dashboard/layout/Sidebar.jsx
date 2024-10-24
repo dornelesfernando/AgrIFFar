@@ -9,22 +9,28 @@ function Sidebar({ userType }) {
         SidebarDashboardData[userType] || []
     );
 
-    //console.log('Dados do Sidebar:', sidebarData); // Verifique os dados do sidebar
-
     return (
         <>
             <Toggle />
             <div className={styles.sidebar}>
-                {sidebarData.map((item, index) => (
-                    <SidebarItem
-                        key={index}
-                        href={item.href}
-                        icon={item.icon}
-                        label={item.label}
-                        lastChildElement={sidebarData.length - 1 === index}
-                    />
-                ))}
+                <div className={styles.sidebarItens}>
+                    {sidebarData.map((item, index) => (
+                        <SidebarItem
+                            key={index}
+                            href={item.href}
+                            icon={item.icon}
+                            label={item.label}
+                        />
+                    ))}
+                </div>
+                <div className={styles.logoutWrapper}>
+                    <a href={'/logout'} className={styles.logout}>
+                        <span className="material-icons-sharp">exit_to_app</span>
+                        <h3>Sair</h3>
+                    </a>
+                </div>
             </div>
+            
         </>
     );
 }
