@@ -1,0 +1,32 @@
+.container {
+    height: 100vh;
+    background-color: #f7eee6;
+    background-image: url('./img/backgroundNotFound.svg');
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: #221F4C;
+    position: relative;
+    z-index: 1;
+    padding-left: 35%;
+    padding-bottom: 10%;
+}
+
+.text h1 {
+    font-size: 4.5rem;
+    color: #221F4C;
+}
+
+.text h2 {
+    font-size: 1.5rem;
+    color: #565657;
+}
