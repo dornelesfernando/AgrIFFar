@@ -17,7 +17,7 @@
     flex: 1; /* Para ocupar todo o espaço disponível, menos o espaço do logout */
     overflow-y: auto; /* A barra de rolagem será aplicada apenas aos itens */
     padding-right: 1rem; /* Adiciona um espaçamento interno à direita para evitar sobreposição da barra */
-    max-height: 33rem;
+    max-height: calc(100vh - 16rem); 
 }
 
 .sidebar a {

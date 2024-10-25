@@ -1,7 +1,6 @@
 import React from 'react';
-import styles from '../layout/Sidebar.module.css';
 
-const SidebarItem = ({ href, icon, label, lastChildElement }) => {
+const SidebarItem = ({ href, icon, label }) => {
     
     return (
         <a href={href}>

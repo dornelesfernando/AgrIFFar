@@ -1,6 +1,6 @@
 import styles from './Sidebar.module.css';
 import Toggle from '../components/Toggle';
-import SidebarDashboardData from '../../../data/SidebarDashboard.json';
+import SidebarDashboardData from '../../../data/sidebarDashboard.json';
 import SidebarItem from '../service/SidebarItem';
 
 function Sidebar({ userType }) {
