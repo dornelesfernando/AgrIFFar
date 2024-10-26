@@ -60,97 +60,97 @@
     ],
     "farmer": [
         {
-            "href": "/farmer/crops",
+            "href": "/dashboard/crops",
             "icon": "agriculture",
             "label": "Minhas Culturas"
         },
         {
-            "href": "/farmer/reports",
+            "href": "/dashboard/reports",
             "icon": "bar_chart",
             "label": "Meus Relatórios"
         },
         {
-            "href": "/farmer/fields",
+            "href": "/dashboard/fields",
             "icon": "map",
             "label": "Meus Campos"
         },
         {
-            "href": "/farmer/field-crops",
+            "href": "/dashboard/fieldCrops",
             "icon": "grain",
             "label": "Culturas por Campo"
         },
         {
-            "href": "/farmer/field-crop-harvests",
+            "href": "/dashboard/fieldCropHarvests",
             "icon": "local_florist",
             "label": "Colheitas por Campo"
         },
         {
-            "href": "/farmer/field-crop-treatments",
+            "href": "/dashboard/fieldCropTreatments",
             "icon": "medical_services",
             "label": "Tratamentos"
         },
         {
-            "href": "/farmer/cash-flow",
+            "href": "/dashboard/cashFlow",
             "icon": "attach_money",
             "label": "Fluxo de Caixa"
         },
         {
-            "href": "/farmer/cost",
+            "href": "/dashboard/cost",
             "icon": "money",
             "label": "Custos"
         },
         {
-            "href": "/farmer/depreciation",
+            "href": "/dashboard/depreciation",
             "icon": "timeline",
             "label": "Depreciação"
         },
         {
-            "href": "/farmer/harvest",
+            "href": "/dashboard/harvest",
             "icon": "grass",
             "label": "Colheitas"
         },
         {
-            "href": "/farmer/inputs",
+            "href": "/dashboard/inputs",
             "icon": "inventory",
             "label": "Insumos"
         },
         {
-            "href": "/farmer/investment",
+            "href": "/dashboard/investment",
             "icon": "monetization_on",
             "label": "Investimentos"
         },
         {
-            "href": "/farmer/machinery",
+            "href": "/dashboard/machinery",
             "icon": "construction",
             "label": "Máquinas"
         },
         {
-            "href": "/farmer/maintenance",
+            "href": "/dashboard/maintenance",
             "icon": "build",
             "label": "Manutenção"
         },
         {
-            "href": "/farmer/planting",
+            "href": "/dashboard/planting",
             "icon": "category",
             "label": "Plantio"
         },
         {
-            "href": "/farmer/preparation",
+            "href": "/dashboard/preparation",
             "icon": "category",
             "label": "Preparação"
         },
         {
-            "href": "/farmer/stock",
+            "href": "/dashboard/stock",
             "icon": "inventory_2",
             "label": "Estoque"
         },
         {
-            "href": "/farmer/tips",
+            "href": "/dashboard/tips",
             "icon": "lightbulb",
             "label": "Dicas"
         },
         {
-            "href": "/farmer/transport",
+            "href": "/dashboard/transport",
             "icon": "directions_car",
             "label": "Transporte"
         }
