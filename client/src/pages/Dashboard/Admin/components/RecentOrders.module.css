@@ -1,0 +1,38 @@
+.recentOrders{
+    margin-top: 1.3rem;
+}
+
+.recentOrders h2{
+    margin-bottom: 0.8rem;
+}
+
+.recentOrders table{
+    background-color: var(--color-white);
+    width: 100%;
+    padding: var(--card-padding);
+    text-align: center;
+    box-shadow: var(--box-shadow);
+    border-radius: var(--card-border-radius);
+    transition: all 0.3s ease;
+}
+
+.recentOrders table:hover{
+    box-shadow: none;
+}
+
+table tbody td{
+    height: 2.8rem;
+    border-bottom: 1px solid var(--color-light);
+    color: var(--color-dark-variant);
+}
+
+table tbody tr:last-child td{
+    border: none;
+}
+
+.recentOrders a{
+    text-align: center;
+    display: block;
+    margin: 1rem auto;
+    color: var(--color-primary);
+}
