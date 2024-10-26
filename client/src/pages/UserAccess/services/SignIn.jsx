@@ -21,7 +21,8 @@ function SignIn() {
             if (response.data.success) {
                 // Armazena o tipo de usuário no localStorage
                 localStorage.setItem('userType', response.data.userType);
-
+                localStorage.setItem('name', response.data.name);
+                
                 // Redireciona para o dashboard após o login bem-sucedido
                 navigate('/dashboard');
             } else {

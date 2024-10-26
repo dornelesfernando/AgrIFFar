@@ -53,7 +53,8 @@ const loginUser = (req, res) => {
                 if (response) {
                     res.json({ success: true, 
                                message: 'Login bem-sucedido!',
-                               userType: result[0].userType});
+                               userType: result[0].userType,
+                               name: result[0].name});
                 } else {
                     res.json({ success: false, message: 'Senha incorreta!' });
                 }

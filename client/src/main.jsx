@@ -7,8 +7,8 @@ import ScreenSizeGuard from './service/ScreenSizeGuard';
 
 createRoot(document.getElementById('root')).render(
   <ScreenSizeGuard>
-  <BrowserRouter>
-    <MainRoutes />
-  </BrowserRouter>
+    <BrowserRouter>
+      <MainRoutes />
+    </BrowserRouter>
   </ScreenSizeGuard>
 );
