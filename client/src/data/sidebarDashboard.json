@@ -18,34 +18,44 @@
     ],
     "admin": [
         {
-            "href": "/admin/users",
+            "href": "/dashboard/admin/users",
             "icon": "group",
             "label": "Gerenciar Usuários"
         },
         {
-            "href": "/admin/overview",
+            "href": "/dashboard/admin/overview",
             "icon": "dashboard",
             "label": "Visão Geral"
         },
         {
-            "href": "/admin/team",
+            "href": "/dashboard/admin/team",
             "icon": "people",
             "label": "Equipe"
         },
         {
-            "href": "/admin/reports",
+            "href": "/dashboard/admin/reports",
             "icon": "assessment",
             "label": "Relatórios"
         },
         {
-            "href": "/admin/crops",
+            "href": "/dashboard/admin/crops",
             "icon": "agriculture",
             "label": "Culturas"
         },
         {
-            "href": "/admin/fields",
+            "href": "/dashboard/admin/fields",
             "icon": "map",
             "label": "Campos"
+        },
+        {
+            "href": "/dashboard/admin/tips",
+            "icon": "lightbulb",
+            "label": "Dicas"
+        },
+        {
+            "href": "/dashboard/admin/recentOrders",
+            "icon": "attach_money",
+            "label": "Pedidos Recentes"
         }
     ],
     "farmer": [
