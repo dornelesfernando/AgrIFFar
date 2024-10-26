@@ -22,6 +22,26 @@ import AdmFields from './pages/Dashboard/Admin/components/Fields.jsx';
 import AdmTips from './pages/Dashboard/Admin/components/Tips.jsx';
 import AdmRecentOrders from './pages/Dashboard/Admin/components/RecentOrders.jsx';
 
+import CashFlow from './pages/Dashboard/Farmer/components/CashFlow.jsx';
+import Cost from './pages/Dashboard/Farmer/components/Cost.jsx';
+import Depreciation from './pages/Dashboard/Farmer/components/Depreciation.jsx';
+import Harvest from './pages/Dashboard/Farmer/components/Harvest.jsx';
+import Inputs from './pages/Dashboard/Farmer/components/Inputs.jsx';
+import Investment from './pages/Dashboard/Farmer/components/Investment.jsx';
+import Machinery from './pages/Dashboard/Farmer/components/Machinery.jsx';
+import Maintenance from './pages/Dashboard/Farmer/components/Maintenance.jsx';
+import Planting from './pages/Dashboard/Farmer/components/Planting.jsx';
+import Preparation from './pages/Dashboard/Farmer/components/Preparation.jsx';
+import Stock from './pages/Dashboard/Farmer/components/Stock.jsx';
+import Tips from './pages/Dashboard/Admin/components/Tips.jsx';
+import Transport from './pages/Dashboard/Farmer/components/Transport.jsx';
+import Crops from './pages/Dashboard/Admin/components/Crops.jsx';
+import Reports from './pages/Dashboard/Admin/components/Reports.jsx';
+import FieldCrops from './pages/Dashboard/Farmer/components/FieldCrops.jsx';
+import Fields from './pages/Dashboard/Admin/components/Fields.jsx';
+import FieldCropHarvests from './pages/Dashboard/Farmer/components/FieldCropHarvests.jsx';
+import FieldCropTreatments from './pages/Dashboard/Farmer/components/FieldCropTreatments.jsx';
+
 function MainRoutes(){
     return (
         <Routes>
@@ -50,6 +70,27 @@ function MainRoutes(){
             <Route path="/dashboard/admin/fields" element={<AdmFields />} />
             <Route path="/dashboard/admin/tips" element={<AdmTips />} />
             <Route path="/dashboard/admin/recentOrders" element={<AdmRecentOrders />} />
+
+            {/* Dashboard farmer pages */}
+            <Route path="/dashboard/crops" element={<Crops />} />
+            <Route path="/dashboard/reports" element={<Reports />} />
+            <Route path="/dashboard/fields" element={<Fields />} />
+            <Route path="/dashboard/fieldCrops" element={<FieldCrops />} />
+            <Route path="/dashboard/fieldCropHarvests" element={<FieldCropHarvests />} />
+            <Route path="/dashboard/fieldCropTreatments" element={<FieldCropTreatments />} />
+            <Route path="/dashboard/cashFlow" element={<CashFlow />} />
+            <Route path="/dashboard/cost" element={<Cost />} />
+            <Route path="/dashboard/depreciation" element={<Depreciation />} />
+            <Route path="/dashboard/harvest" element={<Harvest />} />
+            <Route path="/dashboard/inputs" element={<Inputs />} />
+            <Route path="/dashboard/investment" element={<Investment />} />
+            <Route path="/dashboard/machinery" element={<Machinery />} />
+            <Route path="/dashboard/maintenance" element={<Maintenance />} />
+            <Route path="/dashboard/planting" element={<Planting />} />
+            <Route path="/dashboard/preparation" element={<Preparation />} />
+            <Route path="/dashboard/stock" element={<Stock />} />
+            <Route path="/dashboard/tips" element={<Tips />} />
+            <Route path="/dashboard/transport" element={<Transport />} />
         </Routes>
     );
 }
