@@ -13,6 +13,15 @@ import FAQ from './pages/Home/Pages/FAQ.jsx';
 import Settings from './pages/Dashboard/components/Settings.jsx';
 import Profile from './pages/Dashboard/components/Profile.jsx';
 
+import AdmUsers from './pages/Dashboard/Admin/components/Users.jsx';
+import AdmOverview from './pages/Dashboard/Admin/components/Overview.jsx';
+import AdmTeam from './pages/Dashboard/Admin/components/Team.jsx';
+import AdmReports from './pages/Dashboard/Admin/components/Reports.jsx';
+import AdmCrops from './pages/Dashboard/Admin/components/Crops.jsx';
+import AdmFields from './pages/Dashboard/Admin/components/Fields.jsx';
+import AdmTips from './pages/Dashboard/Admin/components/Tips.jsx';
+import AdmRecentOrders from './pages/Dashboard/Admin/components/RecentOrders.jsx';
+
 function MainRoutes(){
     return (
         <Routes>
@@ -31,6 +40,16 @@ function MainRoutes(){
             {/* Dashboard commom pages */}
             <Route path="/dashboard/profile" element={<Profile />} />
             <Route path="/dashboard/settings" element={<Settings />} />
+
+            {/* Dashboard admin pages */}
+            <Route path="/dashboard/admin/users" element={<AdmUsers />} />
+            <Route path="/dashboard/admin/overview" element={<AdmOverview />} />
+            <Route path="/dashboard/admin/team" element={<AdmTeam />} />
+            <Route path="/dashboard/admin/reports" element={<AdmReports />} />
+            <Route path="/dashboard/admin/crops" element={<AdmCrops />} />
+            <Route path="/dashboard/admin/fields" element={<AdmFields />} />
+            <Route path="/dashboard/admin/tips" element={<AdmTips />} />
+            <Route path="/dashboard/admin/recentOrders" element={<AdmRecentOrders />} />
         </Routes>
     );
 }
