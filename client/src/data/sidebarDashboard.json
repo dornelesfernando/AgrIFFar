@@ -6,12 +6,12 @@
             "label": "Dashboard"
         },
         {
-            "href": "/profile",
+            "href": "/dashboard/profile",
             "icon": "person",
             "label": "Perfil"
         },
         {
-            "href": "/settings",
+            "href": "/dashboard/settings",
             "icon": "settings",
             "label": "Configurações"
         }
