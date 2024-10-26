@@ -14,14 +14,12 @@ const Dashboard = () => {
         setUserType(storedUserType);
     }, []);
 
-    if (!userType) {
-        return < Loading />
-    }
-
+    if (!userType) return < Loading />;
+    
     return (
         <div className={styles.container}>
             <aside>
-                <Sidebar userType={userType} /> 
+                <Sidebar userType={userType} />
             </aside>
             {userType === 'admin' ? <DashboardAdmin /> : <DashboardFarmer />}
         </div>
