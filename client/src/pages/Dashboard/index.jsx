@@ -4,6 +4,7 @@ import DashboardFarmer from './Farmer';
 import Sidebar from './layout/Sidebar';
 import styles from './Dashboard.module.css';
 import Loading from '../../utils/Loading';
+import RightSection from './layout/RightSection';
 
 const Dashboard = () => {
     const [userType, setUserType] = useState(null);
@@ -22,6 +23,7 @@ const Dashboard = () => {
                 <Sidebar userType={userType} />
             </aside>
             {userType === 'admin' ? <DashboardAdmin /> : <DashboardFarmer />}
+            <RightSection />
         </div>
     );
 };

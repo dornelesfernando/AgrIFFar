@@ -3,60 +3,54 @@
         "imgSrc": "/img/equipe/karlise.jpg",
         "name": "Karlise Soares Nascimento",
         "position": "Coordenadora",
-        "curse": "Téc. Informática"
+        "curse": "Drª em Computação"
     },
     {
         "imgSrc": "/img/equipe/fernando.jpg",
         "name": "Fernando Dorneles da Silva",
-        "position": "Bolsista",
-        "curse": "Téc. Informática"
+        "position": "Ex-Bolsista",
+        "curse": "Téc. em Informática"
     },
     {
         "imgSrc": "/img/equipe/luis.jpg",
         "name": "Luis Eduardo Baumgartner de Quadra",
-        "position": "Bolsista",
-        "curse": "Téc. Informática"
+        "position": "Ex-Bolsista",
+        "curse": "Téc. em Informática"
     },
     {
         "imgSrc": "/img/equipe/ana.jpg",
         "name": "Ana Laura Hepp Galarça",
-        "position": "Bolsista",
-        "curse": "Téc. Manutenção"
+        "position": "Ex-Bolsista",
+        "curse": "Téc. em Manutenção e Suporte em Informática"
     },
     {
         "imgSrc": "/img/equipe/mauricio.jpg",
         "name": "Mauricio Bilharva Melo",
-        "position": "Bank Manager",
-        "curse": ""
+        "position": "Voluntário",
+        "curse": "Licenciatura em Computação"
     },
     {
         "imgSrc": "/img/equipe/tiarla.jpeg",
         "name": "Tiarla Regina Borgartz Schreiber",
-        "position": "Bank Manager",
-        "curse": ""
+        "position": "Voluntária",
+        "curse": "Licenciatura em Computação"
     },
     {
         "imgSrc": "/img/equipe/marcio.jpg",
         "name": "Marcio Cristiano Augusto Brune",
-        "position": "App Designer",
-        "curse": ""
-    },
-    {
-        "imgSrc": "/img/equipe/manoela.jpg",
-        "name": "Manoela Moraes dos Santos",
-        "position": "App Designer",
-        "curse": ""
+        "position": "Voluntário",
+        "curse": "Sistemas Para Internet"
     },
     {
         "imgSrc": "/img/equipe/thiago.jpg",
         "name": "Thiago Mikael Copetti dos Santos",
-        "position": "App Designer",
-        "curse": ""
+        "position": "Voluntário",
+        "curse": "Téc. em Informática"
     },
     {
         "imgSrc": "/img/equipe/glenio.jpg",
         "name": "Glenio Venes Flôres",
-        "position": "App Designer",
-        "curse": ""
+        "position": "Voluntário",
+        "curse": "Licenciatura em Computação"
     }
 ]

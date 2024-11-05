@@ -25,7 +25,7 @@ import AdmRecentOrders from './pages/Dashboard/Admin/components/RecentOrders.jsx
 import Crops from './pages/Dashboard/Admin/components/Crops.jsx';
 import Reports from './pages/Dashboard/Admin/components/Reports.jsx';
 import FieldCrops from './pages/Dashboard/Farmer/components/FieldCrops.jsx';
-import Fields from './pages/Dashboard/Admin/components/Fields.jsx';
+import Fields from './pages/Dashboard/Farmer/components/Fields.jsx';
 import FieldCropHarvests from './pages/Dashboard/Farmer/components/FieldCropHarvests.jsx';
 import FieldCropTreatments from './pages/Dashboard/Farmer/components/FieldCropTreatments.jsx';
 import CashFlow from './pages/Dashboard/Farmer/components/CashFlow.jsx';
