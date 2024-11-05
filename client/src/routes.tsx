@@ -5,10 +5,10 @@ import Dashboard from './pages/Dashboard/index.jsx';
 import NotFound from './pages/NotFound/index.jsx';
 
 import AboutUs from './pages/Home/pages/AboutUs.jsx';
-import OurServices from './pages/Home/Pages/ourServices.jsx';
-import PrivacyPolicy from './pages/Home/Pages/privacyPolicy.jsx';
-import Institution from './pages/Home/Pages/institution.jsx';
-import FAQ from './pages/Home/Pages/FAQ.jsx';
+import OurServices from './pages/Home/pages/OurServices.jsx';
+import PrivacyPolicy from './pages/Home/pages/PrivacyPolicy.jsx';
+import Institution from './pages/Home/pages/Institution.jsx';
+import FAQ from './pages/Home/pages/FAQ.jsx';
 
 import Settings from './pages/Dashboard/components/Settings.jsx';
 import Profile from './pages/Dashboard/components/Profile.jsx';
@@ -22,6 +22,12 @@ import AdmFields from './pages/Dashboard/Admin/components/Fields.jsx';
 import AdmTips from './pages/Dashboard/Admin/components/Tips.jsx';
 import AdmRecentOrders from './pages/Dashboard/Admin/components/RecentOrders.jsx';
 
+import Crops from './pages/Dashboard/Admin/components/Crops.jsx';
+import Reports from './pages/Dashboard/Admin/components/Reports.jsx';
+import FieldCrops from './pages/Dashboard/Farmer/components/FieldCrops.jsx';
+import Fields from './pages/Dashboard/Admin/components/Fields.jsx';
+import FieldCropHarvests from './pages/Dashboard/Farmer/components/FieldCropHarvests.jsx';
+import FieldCropTreatments from './pages/Dashboard/Farmer/components/FieldCropTreatments.jsx';
 import CashFlow from './pages/Dashboard/Farmer/components/CashFlow.jsx';
 import Cost from './pages/Dashboard/Farmer/components/Cost.jsx';
 import Depreciation from './pages/Dashboard/Farmer/components/Depreciation.jsx';
@@ -35,12 +41,6 @@ import Preparation from './pages/Dashboard/Farmer/components/Preparation.jsx';
 import Stock from './pages/Dashboard/Farmer/components/Stock.jsx';
 import Tips from './pages/Dashboard/Admin/components/Tips.jsx';
 import Transport from './pages/Dashboard/Farmer/components/Transport.jsx';
-import Crops from './pages/Dashboard/Admin/components/Crops.jsx';
-import Reports from './pages/Dashboard/Admin/components/Reports.jsx';
-import FieldCrops from './pages/Dashboard/Farmer/components/FieldCrops.jsx';
-import Fields from './pages/Dashboard/Admin/components/Fields.jsx';
-import FieldCropHarvests from './pages/Dashboard/Farmer/components/FieldCropHarvests.jsx';
-import FieldCropTreatments from './pages/Dashboard/Farmer/components/FieldCropTreatments.jsx';
 
 function MainRoutes(){
     return (
