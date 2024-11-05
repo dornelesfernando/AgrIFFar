@@ -3,7 +3,9 @@ import styles from './PrivacyPolicy.module.css'
 
 function PrivacyPolicy(){
     return(
-        <RedirectIfEmpty />
+        <>
+            <RedirectIfEmpty />
+        </>
     )
 }
 

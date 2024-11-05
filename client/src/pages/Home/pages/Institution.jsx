@@ -3,7 +3,9 @@ import styles from './Institution.module.css'
 
 function Institution(){
     return(
-        <RedirectIfEmpty />
+        <>
+            <RedirectIfEmpty />
+        </>
     )
 }
 

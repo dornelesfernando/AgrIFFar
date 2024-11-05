@@ -3,7 +3,9 @@ import styles from './AboutUs.module.css'
 
 function AboutUs(){
     return(
-        <RedirectIfEmpty />
+        <>
+            <RedirectIfEmpty />
+        </>
     )
 }
 
