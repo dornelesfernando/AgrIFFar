@@ -6,9 +6,8 @@ function DashboardFarmer(){
     return(
         <>
             <main>
-                <Fields />
+                
             </main>
-            <RightSection />
         </>
     )
 }
