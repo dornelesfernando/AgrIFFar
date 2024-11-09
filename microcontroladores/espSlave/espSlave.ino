@@ -10,10 +10,14 @@ DHT dht(DHT11PIN, DHT11);
 uint8_t macMaster[] = {0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF}; // Substitua pelo MAC Address do mestre
 unsigned long lastSendTime = 0;
 int soilHumidity;
-float airHumidity;
-float temperature;
+int airHumidity;
+int temperature;
 #define SEND_INTERVAL 5000  // Intervalo de envio em milissegundos (5 segundos)
 #define capacitve 32;
+#define infoPin 15
+
+unsigned long previousMillis = 0; // Armazena o último tempo em que o LED foi alternado
+const unsigned long interval = 500; // Intervalo de 500 milissegundos
 
 // Estrutura para armazenar a mensagem e o MAC Address
 typedef struct Message {
@@ -51,6 +55,8 @@ void setup() {
 
   pinMode(capacitivePin, INPUT);
   dht.begin();
+
+  pinMode(infoPin, OUTPUT);
 }
 
 void InitESPNow() {
@@ -69,7 +75,7 @@ void sendData() {
   Message message;
 
   // Usa sprintf para formatar a string corretamente
-  sprintf(message.text, "Soil Humidity: %d Air Humidity: %.2f Temperature: %.2f", soilHumidity, airHumidity, temperature);
+  sprintf(message.text, "Soil Humidity: %d", soilHumidity);
 
   // Obtém o MAC Address do escravo e coloca na estrutura
   WiFi.macAddress(message.mac);
@@ -81,6 +87,15 @@ void sendData() {
     Serial.println("Message sent: Sensor data with MAC Address");
   } else {
     Serial.println("Failed to send message");
+  }
+
+  unsigned long currentMillis = millis();
+  digitalWrite(infoPin, HIGH);
+  // Verifica se 500 milissegundos se passaram
+  if (currentMillis - previousMillis >= interval) {
+    previousMillis = currentMillis; // Atualiza o último tempo
+    // Alterna o estado do LED
+    digitalWrite(infoPin, LOW);
   }
 }
 

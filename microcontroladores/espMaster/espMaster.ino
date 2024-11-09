@@ -11,7 +11,7 @@ void setup() {
   Serial.begin(115200);
   WiFi.mode(WIFI_STA);
 
-  Serial.print("Mac Address in Station: "); 
+  Serial.print("Mac Address in Station: ");
   Serial.println(WiFi.macAddress());
 
   InitESPNow();
@@ -37,10 +37,11 @@ void OnDataRecv(const esp_now_recv_info *recv_info, const uint8_t *incomingData,
   // Converte o MAC Address para uma string para exibição
   char macStr[18];
   snprintf(macStr, sizeof(macStr), "%02x:%02x:%02x:%02x:%02x:%02x",
-           recv_info->src_addr[0], recv_info->src_addr[1], recv_info->src_addr[2], 
+           recv_info->src_addr[0], recv_info->src_addr[1], recv_info->src_addr[2],
            recv_info->src_addr[3], recv_info->src_addr[4], recv_info->src_addr[5]);
 
-  Serial.print("Message received from slave: ");
+  Serial.println("----------------------------------------------------------------------------------------------------");
+  Serial.print("Message received: ");
   Serial.println(receivedMessage.text);
   Serial.print("MAC Address of slave: ");
   Serial.println(macStr);
