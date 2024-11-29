@@ -17,7 +17,7 @@ function GetStarted() {
 
     return (
         <div className={styles.get_started} id="get-started">
-            <p className={styles.header}>Sobre o aplicativo</p>
+            <p className={styles.header}>Sobre a Plataforma</p>
             <div className={styles.boxes} ref={ref}>
                 {texts.map((text, i) => (
                     <div
