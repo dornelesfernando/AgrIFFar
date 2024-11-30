@@ -40,8 +40,7 @@
 </div>
 
 > [!NOTE]
-> Para usar todos os recursos, baixe esse repositório para seu ambiente de desenvolvimento.
-
+> To use all features, download this repository to your development environment.
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -75,7 +74,7 @@ The AgrIFFar is an innovative solution designed to meet the needs of small rural
 - Increasing productivity in a sustainable way.
 
 ### Development 🚜
-Developed by students from the Federal Institute of Education, Science, and Technology of Farroupilha - Santo Ângelo Campus, under the coordination of Karlise Soares Nascimento, AgrIFFar reflects the institution's commitment to innovation and regional development.
+Developed by students from the Federal Institute of Education, Science, and Technology Farroupilha - Santo Ângelo Campus, under the coordination of Karlise Soares Nascimento, AgrIFFar reflects the institution's commitment to innovation and regional development.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

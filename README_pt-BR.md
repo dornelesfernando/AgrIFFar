@@ -63,37 +63,37 @@
 [![Screenshot da página inicial][product-screenshot]](https://agriffar.vercel.app/)
 
 ### Objetivo 🎯
-The AgrIFFar is an innovative solution designed to meet the needs of small rural properties, providing support for agricultural management and access to precision farming technologies at an affordable cost.
+O AgrIFFar é uma solução inovadora pensada para atender às necessidades de pequenas propriedades rurais, proporcionando suporte à gestão agrícola e acesso a tecnologias de agricultura de precisão a um custo acessível.
 
 ### Benefícios 🌱
-- Offer small producers a practical and efficient tool. 
-- Monitoring activities on their farms.
-- Decision-making
-- Optimizing the use of natural resources.
-- Reducing waste.
-- Increasing productivity in a sustainable way.
+- Oferecer aos pequenos produtores uma ferramenta prática e eficiente.
+- Monitorar as atividades em suas fazendas.
+- Tomada de decisão
+- Otimizar o uso dos recursos naturais.
+- Reduzir o desperdício.
+- Aumentar a produtividade de forma sustentável.
 
 ### Desenvolvimento 🚜
-Developed by students from the Federal Institute of Education, Science, and Technology of Farroupilha - Santo Ângelo Campus, under the coordination of Karlise Soares Nascimento, AgrIFFar reflects the institution's commitment to innovation and regional development.
+Desenvolvido por alunos do Instituto Federal de Educação, Ciência e Tecnologia Farroupilha - Campus Santo Ângelo, sob coordenação de Karlise Soares Nascimento, o AgrIFFar reflete o comprometimento da instituição com a inovação e o desenvolvimento regional.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">Voltar ao Topo</a>)</p>
 
 
 
 <!-- ROTEIRO -->
 ## Roteiro 📍
 
-- [ ] Add Changelog
-- [ ] Add documentation for the project
-- [ ] Add comment in project code
-- [ ] Multi-language Support
-    - [ ] English
-    - [ ] Spanish
-    - [ ] Chinese
+- [ ] Adicionar Changelog
+- [ ] Adicionar documentação para o projeto
+- [ ] Adicionar comentários no código do projeto
+- [ ] Suporte multilíngue
+  - [ ] Inglês
+  - [ ] Espanhol
+  - [ ] Chinês
 
-See the [open issues](https://github.com/dornelesfernando/AgrIFFar/issues) for a full list of proposed features (and known issues).
+Veja em [Problemas em aberto](https://github.com/dornelesfernando/AgrIFFar/issues) para uma lista completa de recursos propostos (e problemas conhecidos).
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">Voltar ao Topo</a>)</p>
 
 
 
@@ -111,9 +111,9 @@ See the [open issues](https://github.com/dornelesfernando/AgrIFFar/issues) for a
 <!-- LICENSE -->
 ## License 📝
 
-Distributed under the MIT License. See `LICENSE` for more information.
+Distribuído sob a Licença MIT. Veja `LICENSE` para mais informações.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">Voltar ao Topo</a>)</p>
 
 
 
@@ -126,14 +126,14 @@ Karlise Soares - [Lattes](http://lattes.cnpq.br/6702586607871869) - karlise.nasc
 
 Project Link: [https://github.com/dornelesfernando/AgrIFFar](https://github.com/dornelesfernando/AgrIFFar)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">Voltar ao Topo</a>)</p>
 
 
 
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments 🛠️
 
-List of useful resources that I enjoyed using in the project:
+Lista de recursos úteis que gostei de usar no projeto:
 
 * [Vercel](https://vercel.com/)
 * [Learn React](https://react.dev/learn)
@@ -142,7 +142,7 @@ List of useful resources that I enjoyed using in the project:
 * [MDN Web Docs - Mozilla](https://developer.mozilla.org/)
 * [Font Awesome](https://fontawesome.com)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">Voltar ao Topo</a>)</p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
