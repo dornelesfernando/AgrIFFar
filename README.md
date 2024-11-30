@@ -58,6 +58,8 @@
 
 
 <!-- ABOUT THE PROJECT -->
+<a id="#about-the-project"></a>
+
 ## About The Project ✨ 
 
 [![Home Page Screen Shot][product-screenshot]](https://agriffar.vercel.app/)
@@ -81,6 +83,8 @@ Developed by students from the Federal Institute of Education, Science, and Tech
 
 
 <!-- ROADMAP -->
+<a id="#roadmap"></a>
+
 ## Roadmap 📍
 
 - [ ] Add Changelog
@@ -98,6 +102,8 @@ See the [open issues](https://github.com/dornelesfernando/AgrIFFar/issues) for a
 
 
 <!-- ROADMAP PAGES
+<a id="#roadmapPages"></a>
+
 ## Roadmap Pages 📌
 
  Make a list of pages to do 
@@ -109,6 +115,8 @@ See the [open issues](https://github.com/dornelesfernando/AgrIFFar/issues) for a
 -->
 
 <!-- LICENSE -->
+<a id="#license"></a>
+
 ## License 📝
 
 Distributed under the MIT License. See `LICENSE` for more information.
@@ -118,6 +126,8 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 
 <!-- CONTACT -->
+<a id="#contact"></a>
+
 ## Contact 🌍
 
 Fernando Dorneles - [Lattes](http://lattes.cnpq.br/0532418852427960) - [@fernandodorneles](www.linkedin.com/in/fernandodorneles) - fernandodorneles95@gmail.com
@@ -131,6 +141,8 @@ Project Link: [https://github.com/dornelesfernando/AgrIFFar](https://github.com/
 
 
 <!-- ACKNOWLEDGMENTS -->
+<a id="#acknowledgments"></a>
+
 ## Acknowledgments 🛠️
 
 List of useful resources that I enjoyed using in the project:
