@@ -3,7 +3,6 @@
 
   [![MIT License][license-shield]][license-url]
   [![LinkedIn][linkedin-shield]][linkedin-url]
-  [![Issues][issues-shield]][issues-url]
 </div>
 
 <h4 align="center"> 
@@ -14,7 +13,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/dornelesfernando/AgrIFFar">
-    <img src="./images/LogoAgriffar.png" alt="Logo" width="278" height="224">
+    <img src="./images/LogoAgriffar.jpg" alt="Logo" width="278" height="224">
   </a>
 
   <h3 align="center">AgrIFFar - Aplicativo para Gerenciamento de Pequenas Propriedades Rurais</h3>
@@ -56,10 +55,10 @@
 
 [![Home Page Screen Shot][product-screenshot]](https://agriffar.vercel.app/)
 
-### Objetivo 🎯
+### Objective 🎯
 The AgrIFFar is an innovative solution designed to meet the needs of small rural properties, providing support for agricultural management and access to precision farming technologies at an affordable cost.
 
-### Benefícios 🌱
+### Benefits 🌱
 - Offer small producers a practical and efficient tool. 
 - Monitoring activities on their farms.
 - Decision-making
@@ -67,7 +66,7 @@ The AgrIFFar is an innovative solution designed to meet the needs of small rural
 - Reducing waste.
 - Increasing productivity in a sustainable way.
 
-### Desenvolvimento 🚜
+### Development 🚜
 Developed by students from the Federal Institute of Education, Science, and Technology of Farroupilha - Santo Ângelo Campus, under the coordination of Karlise Soares Nascimento, AgrIFFar reflects the institution's commitment to innovation and regional development.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
