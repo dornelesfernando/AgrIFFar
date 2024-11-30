@@ -39,12 +39,9 @@
   </p>
 </div>
 
-<div>
-
-  > [!NOTE]
-  > Useful information that users should know, even when skimming content.
-  > To use all the features, download it to your development environment.
-</div>
+> [!NOTE]
+> Useful information that users should know, even when skimming content.
+> To use all the features, download it to your development environment.
 
 
 <!-- TABLE OF CONTENTS -->
