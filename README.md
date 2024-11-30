@@ -142,5 +142,5 @@ List of useful resources that I enjoyed using in the project:
 [license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
 [license-url]: https://github.com/dornelesfernando/AgrIFFar/blob/main/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: www.linkedin.com/in/fernandodorneles
+[linkedin-url]: https://www.linkedin.com/in/fernandodorneles
 [product-screenshot]: ./images/HomePage.png
