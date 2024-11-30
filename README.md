@@ -5,7 +5,7 @@
   [![LinkedIn][linkedin-shield]][linkedin-url]
 </div>
 
-<a href="https://github.com/dornelesfernando/AgrIFFar/README_pt-BR.md">
+<a href="https://github.com/dornelesfernando/AgrIFFar/blob/main/README_pt-BR.md">
 
   > [!TIP]
   > Clique aqui para ler esse `README.md`  em **português**.
@@ -40,8 +40,7 @@
 </div>
 
 > [!NOTE]
-> Useful information that users should know, even when skimming content.
-> To use all the features, download it to your development environment.
+> Para usar todos os recursos, baixe esse repositório para seu ambiente de desenvolvimento.
 
 
 <!-- TABLE OF CONTENTS -->
