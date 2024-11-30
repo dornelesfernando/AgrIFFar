@@ -77,12 +77,13 @@ O AgrIFFar é uma solução inovadora pensada para atender às necessidades de p
 ### Desenvolvimento 🚜
 Desenvolvido por alunos do Instituto Federal de Educação, Ciência e Tecnologia Farroupilha - Campus Santo Ângelo, sob coordenação de Karlise Soares Nascimento, o AgrIFFar reflete o comprometimento da instituição com a inovação e o desenvolvimento regional.
 
-<p align="right">(<a href="#readme-top">Voltar ao Topo</a>)</p>
+<p align="right">(<a href="#readme-top">Voltar ao Início</a>)</p>
 
 
 
 <!-- ROTEIRO -->
 <a id="#roadmap"></a>
+
 ## Roteiro 📍
 
 - [ ] Adicionar Changelog
@@ -95,21 +96,55 @@ Desenvolvido por alunos do Instituto Federal de Educação, Ciência e Tecnologi
 
 Veja em [Problemas em aberto](https://github.com/dornelesfernando/AgrIFFar/issues) para uma lista completa de recursos propostos (e problemas conhecidos).
 
-<p align="right">(<a href="#readme-top">Voltar ao Topo</a>)</p>
+<p align="right">(<a href="#readme-top">Voltar ao Início</a>)</p>
 
 
 
-<!-- ROTEIRO PAGES
+<!-- ROTEIRO PAGES -->
 <a id="#roadmapPages"></a>
-## Roteiro Pages 📌
 
- Make a list of pages to do 
-| Feature                | Status       |
-|------------------------|--------------|
-| Adicionar Changelog    | 🟩 Feito     |
-| Suporte Multi-linguagem| 🔲 Em progresso |
-| Comentários no código  | 🔲 Não iniciado |
--->
+## Roteiro Páginas 📌
+
+<div align="right">
+TP: Tipo de Usuário - 
+  (🌐) Comum - 
+  (🛡️) Administrador - 
+  (🧑‍🌾) Fazendeiro 
+</div>
+
+| TP  | Página                     | Status           | - | - | TP  | Página                     | Status           |
+|-----|----------------------------|------------------| - | - |-----|----------------------------|------------------|
+| 🌐  | Dashboard                  | 🔲 Em progresso | - | - | 🧑‍🌾  | Culturas por Campo         | 🔲 Não iniciado |
+| 🌐  | Perfil                     | 🔲 Não iniciado | - | - | 🧑‍🌾  | Colheitas por Campo        | 🔲 Não iniciado |
+| 🌐  | Configurações              | 🔲 Não iniciado | - | - | 🧑‍🌾  | Tratamentos                | 🔲 Não iniciado |
+|-----|----------------------------|------------------| - | - | 🧑‍🌾  | Fluxo de Caixa             | 🔲 Não iniciado |
+| 🛡️  | Gerenciar Usuários         | 🔲 Não iniciado | - | - | 🧑‍🌾  | Custos                     | 🔲 Não iniciado |
+| 🛡️  | Visão Geral                | 🔲 Não iniciado | - | - | 🧑‍🌾  | Depreciação                | 🔲 Não iniciado |
+| 🛡️  | Equipe                     | 🔲 Não iniciado | - | - | 🧑‍🌾  | Insumos                    | 🔲 Não iniciado |
+| 🛡️  | Relatórios                 | 🔲 Não iniciado | - | - | 🧑‍🌾  | Investimentos              | 🔲 Não iniciado |
+| 🛡️  | Culturas                   | 🔲 Não iniciado | - | - | 🧑‍🌾  | Máquinas                   | 🔲 Não iniciado |
+| 🛡️  | Campos                     | 🔲 Não iniciado | - | - | 🧑‍🌾  | Manutenção                 | 🔲 Não iniciado |
+| 🛡️  | Dicas                      | 🔲 Não iniciado | - | - | 🧑‍🌾  | Plantio                    | 🔲 Não iniciado |
+| 🛡️  | Pedidos Recentes           | 🔲 Não iniciado | - | - | 🧑‍🌾  | Preparação                 | 🔲 Não iniciado |
+|-----|----------------------------|------------------| - | - | 🧑‍🌾  | Estoque                    | 🔲 Não iniciado |
+| 🧑‍🌾  | Minhas Culturas            | 🔲 Não iniciado | - | - | 🧑‍🌾  | Dicas                      | 🔲 Não iniciado |
+| 🧑‍🌾  | Meus Relatórios            | 🔲 Não iniciado | - | - | 🧑‍🌾  | Transporte                 | 🔲 Não iniciado |
+| 🧑‍🌾  | Meus Campos                | 🔲 Em progresso | - | - |-----|----------------------------|------------------|
+
+
+
+
+
+
+
+
+
+
+
+
+
+<p align="right">(<a href="#readme-top">Voltar ao Início</a>)</p>
+
 
 <!-- LICENSE -->
 <a id="#license"></a>
@@ -118,14 +153,14 @@ Veja em [Problemas em aberto](https://github.com/dornelesfernando/AgrIFFar/issue
 
 Distribuído sob a Licença MIT. Veja `LICENSE` para mais informações.
 
-<p align="right">(<a href="#readme-top">Voltar ao Topo</a>)</p>
+<p align="right">(<a href="#readme-top">Voltar ao Início</a>)</p>
 
 
 
 <!-- CONTACT -->
 <a id="#contact"></a>
 
-## Contact 🌍
+## Contato 🌍
 
 Fernando Dorneles - [Lattes](http://lattes.cnpq.br/0532418852427960) - [@fernandodorneles](www.linkedin.com/in/fernandodorneles) - fernandodorneles95@gmail.com
 
@@ -133,14 +168,14 @@ Karlise Soares - [Lattes](http://lattes.cnpq.br/6702586607871869) - karlise.nasc
 
 Project Link: [https://github.com/dornelesfernando/AgrIFFar](https://github.com/dornelesfernando/AgrIFFar)
 
-<p align="right">(<a href="#readme-top">Voltar ao Topo</a>)</p>
+<p align="right">(<a href="#readme-top">Voltar ao Início</a>)</p>
 
 
 
 <!-- ACKNOWLEDGMENTS -->
 <a id="#acknowledgments"></a>
 
-## Acknowledgments 🛠️
+## Agradecimentos 🛠️
 
 Lista de recursos úteis que gostei de usar no projeto:
 
@@ -151,7 +186,7 @@ Lista de recursos úteis que gostei de usar no projeto:
 * [MDN Web Docs - Mozilla](https://developer.mozilla.org/)
 * [Font Awesome](https://fontawesome.com)
 
-<p align="right">(<a href="#readme-top">Voltar ao Topo</a>)</p>
+<p align="right">(<a href="#readme-top">Voltar ao Início</a>)</p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->

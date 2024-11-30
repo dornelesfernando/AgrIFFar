@@ -48,7 +48,7 @@
   <ol>
     <li><a href="#about-the-project">About The Project</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
-    <!-- <li><a href="#roadmap">Roadmap Pages</a></li> -->
+    <li><a href="#roadmap">Roadmap Pages</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
@@ -101,18 +101,42 @@ See the [open issues](https://github.com/dornelesfernando/AgrIFFar/issues) for a
 
 
 
-<!-- ROADMAP PAGES
+<!-- ROADMAP PAGES -->
 <a id="#roadmapPages"></a>
 
 ## Roadmap Pages 📌
 
- Make a list of pages to do 
-| Feature                | Status       |
-|------------------------|--------------|
-| Adicionar Changelog    | 🟩 Feito     |
-| Suporte Multi-linguagem| 🔲 Em progresso |
-| Comentários no código  | 🔲 Não iniciado |
--->
+<div align="right">
+UT: User Type - 
+  (🌐) Common - 
+  (🛡️) Administrator - 
+  (🧑‍🌾) Farmer 
+</div>
+
+
+| UT | Page                        | Status         | - | - | UT | Page                        | Status         |
+|-----|-----------------------------|----------------| - | - |-----|-----------------------------|----------------|
+| 🌐  | Dashboard                   | 🔲 In progress | - | - | 🧑‍🌾  | Crops by Field              | 🔲 Not started |
+| 🌐  | Profile                     | 🔲 Not started | - | - | 🧑‍🌾  | Harvests by Field           | 🔲 Not started |
+| 🌐  | Settings                    | 🔲 Not started | - | - | 🧑‍🌾  | Treatments                  | 🔲 Not started |
+|-----|-----------------------------|----------------| - | - | 🧑‍🌾  | Cash Flow                   | 🔲 Not started |
+| 🛡️  | Manage Users                | 🔲 Not started | - | - | 🧑‍🌾  | Costs                       | 🔲 Not started |
+| 🛡️  | Overview                    | 🔲 Not started | - | - | 🧑‍🌾  | Depreciation                | 🔲 Not started |
+| 🛡️  | Team                        | 🔲 Not started | - | - | 🧑‍🌾  | Inputs                      | 🔲 Not started |
+| 🛡️  | Reports                     | 🔲 Not started | - | - | 🧑‍🌾  | Investments                 | 🔲 Not started |
+| 🛡️  | Crops                       | 🔲 Not started | - | - | 🧑‍🌾  | Machinery                   | 🔲 Not started |
+| 🛡️  | Fields                      | 🔲 Not started | - | - | 🧑‍🌾  | Maintenance                 | 🔲 Not started |
+| 🛡️  | Tips                        | 🔲 Not started | - | - | 🧑‍🌾  | Planting                    | 🔲 Not started |
+| 🛡️  | Recent Orders               | 🔲 Not started | - | - | 🧑‍🌾  | Preparation                 | 🔲 Not started |
+|-----|-----------------------------|----------------| - | - | 🧑‍🌾  | Stock                       | 🔲 Not started |
+| 🧑‍🌾  | My Crops                   | 🔲 Not started | - | - | 🧑‍🌾  | Tips                        | 🔲 Not started |
+| 🧑‍🌾  | My Reports                 | 🔲 Not started | - | - | 🧑‍🌾  | Transportation              | 🔲 Not started |
+| 🧑‍🌾  | My Fields                  | 🔲 In progress | - | - |-----|-----------------------------|----------------|
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
 
 <!-- LICENSE -->
 <a id="#license"></a>
