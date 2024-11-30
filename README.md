@@ -5,8 +5,14 @@
   [![LinkedIn][linkedin-shield]][linkedin-url]
 </div>
 
+<a href="https://github.com/dornelesfernando/AgrIFFar/README_pt-BR.md">
+
+  > [!TIP]
+  > Clique aqui para ler esse `README.md`  em **português**.
+</a>
+
 <h4 align="center"> 
-	🚧  Em construção...  🚧
+	🚧  Under Construction...  🚧
 </h4>
 
 <!-- PROJECT LOGO -->
@@ -16,7 +22,7 @@
     <img src="./images/LogoAgriffar.jpg" alt="Logo" width="278" height="224">
   </a>
 
-  <h3 align="center">AgrIFFar - Aplicativo para Gerenciamento de Pequenas Propriedades Rurais</h3>
+  <h3 align="center">AgrIFFar - Application for Management of Small Rural Properties</h3>
 
   <p align="center">
     Helping those who feed the world!
@@ -33,6 +39,12 @@
   </p>
 </div>
 
+<div>
+
+  > [!NOTE]
+  > Useful information that users should know, even when skimming content.
+  > To use all the features, download it to your development environment.
+</div>
 
 
 <!-- TABLE OF CONTENTS -->
