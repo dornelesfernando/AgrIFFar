@@ -19,7 +19,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/dornelesfernando/AgrIFFar">
-    <img src="./images/LogoAgriffar.jpg" alt="Logo" width="278" height="224">
+    <img src="./images/BannerLogo.png" alt="Logo" width="1200" height="400">
   </a>
 
   <h3 align="center">AgrIFFar - Application for Management of Small Rural Properties</h3>
@@ -46,7 +46,20 @@
 <details>
   <summary>Table of Contents</summary>
   <ol>
-    <li><a href="#about-the-project">About The Project</a></li>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#roadmap">Roadmap Pages</a></li>
     <li><a href="#license">License</a></li>
@@ -82,6 +95,102 @@ Developed by students from the Federal Institute of Education, Science, and Tech
 
 
 
+<!-- BUILT WITH> -->
+<a id="#built-with"></a>
+
+### Built With 🛠️
+
+List of major tools used in the project.
+
+* [![React][React.js]][React-url]
+* [![Vite][Vite.js]][Vite-url]
+* [![MySQL][MySQL.com]][MySQL-url]
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- GETTING STARTED -->
+<a id="#getting-started"></a>
+
+## Getting Started 🚀
+
+To get a local copy up and running follow these simple example steps.
+
+### Prerequisites 📋
+  Make sure you have the following installed:
+
+* **npm**  
+  ```sh
+  npm install npm@latest -g
+  ```
+
+### Installation ⚙️
+
+_Follow the steps to install and configure your application. This template does not rely on any external dependencies or services._
+
+1. Clone the repo
+   ```sh
+   git clone https://github.com/dornelesfernando/AgrIFFar.git
+   ```
+2. Install NPM packages
+   ```sh
+   npm install
+   ```
+
+3. Change git remote url to avoid accidental pushes to base project
+   ```sh
+   git remote set-url origin dornelesfernando/AgrIFFar
+   git remote -v # confirm the changes
+   ```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- USAGE EXAMPLES -->
+<a id="#usage"></a>
+
+## Usage 🌟
+
+### 1️⃣ **Register or Login**
+
+The first step is to create an account or log in if you already have one. If you don't have an account, click on "Sign Up" and fill in your details. If you already have an account, click on "Log In" and enter your credentials.
+
+**Print of the login or registration screen:**
+
+![Login/Registration Screen](./images/HomePagelogin_signup.png)
+
+---
+
+### 2️⃣ **Fill in the registration details or log in**
+
+- **Registration:** Fill in all the necessary fields to create a new account, such as name, email and password.
+  
+  **Print of the registration screen:**
+
+  ![Registration Screen](./images/signup.png)
+
+- **Login:** Enter your email and password to access your existing account.
+
+  **Print of the login screen:**
+
+  ![Login Screen](./images/Signin.png)
+
+---
+
+### 3️⃣ **Access the Dashboard**
+
+After completing your registration or login, you will be directed to the **Dashboard**, where you can view and manage your information and data. Here you can access different features of the system in an easy and intuitive way.
+
+**Printout of the released Dashboard:**
+
+![Dashboard Screen](./images/Dashboard.png)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+---
+
 <!-- ROADMAP -->
 <a id="#roadmap"></a>
 
@@ -113,7 +222,6 @@ UT: User Type -
   (🧑‍🌾) Farmer 
 </div>
 
-
 | UT | Page                        | Status         | - | - | UT | Page                        | Status         |
 |-----|-----------------------------|----------------| - | - |-----|-----------------------------|----------------|
 | 🌐  | Dashboard                   | 🔲 In progress | - | - | 🧑‍🌾  | Crops by Field              | 🔲 Not started |
@@ -132,7 +240,6 @@ UT: User Type -
 | 🧑‍🌾  | My Crops                   | 🔲 Not started | - | - | 🧑‍🌾  | Tips                        | 🔲 Not started |
 | 🧑‍🌾  | My Reports                 | 🔲 Not started | - | - | 🧑‍🌾  | Transportation              | 🔲 Not started |
 | 🧑‍🌾  | My Fields                  | 🔲 In progress | - | - |-----|-----------------------------|----------------|
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -167,7 +274,7 @@ Project Link: [https://github.com/dornelesfernando/AgrIFFar](https://github.com/
 <!-- ACKNOWLEDGMENTS -->
 <a id="#acknowledgments"></a>
 
-## Acknowledgments 🛠️
+## Acknowledgments 🤝
 
 List of useful resources that I enjoyed using in the project:
 
@@ -187,3 +294,9 @@ List of useful resources that I enjoyed using in the project:
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/fernandodorneles
 [product-screenshot]: ./images/HomePage.png
+[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+[React-url]: https://reactjs.org/
+[Vite.js]: https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=Vite&logoColor=white
+[Vite-url]: https://vite.dev/
+[MySQL.com]: https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white
+[MySQL-url]: https://www.mysql.com/ 
