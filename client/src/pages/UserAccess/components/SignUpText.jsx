@@ -11,15 +11,15 @@ function SignUpText({ setActive }) {
     return (
         <>
             <div className={`${styles.togglePanel} ${styles.toggleRight}`}>
-                <h1>Hello, Friend!</h1>
-                <p>Register with your personal details to use all of site features</p>
+                <h1>Olá, Amigo!</h1>
+                <p>Cadastre-se para usar todas as funcionalidades do site</p>
                 <button
                     className="hidden"
                     id="register"
                     ref={registerBtnRef}
                     onClick={handleRegisterClick}
                 >
-                    Sign Up
+                    Cadastrar
                 </button>
             </div>
         </>

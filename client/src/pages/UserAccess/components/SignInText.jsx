@@ -11,15 +11,15 @@ function SignInText({ setActive }) {
     return (
         <>
             <div className={`${styles.togglePanel} ${styles.toggleLeft}`}>
-                <h1>Welcome Back!</h1>
-                <p>Enter your personal details to use all of site features</p>
+                <h1>Bem-vindo de volta!</h1>
+                <p>Faça login para usar todas as funcionalidades do site</p>
                 <button
                     className="hidden"
                     id="login"
                     ref={loginBtnRef}
                     onClick={handleLoginClick}
                 >
-                    Sign In
+                    Entrar
                 </button>
             </div>
         </>

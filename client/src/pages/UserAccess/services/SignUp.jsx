@@ -39,40 +39,45 @@ function SignUp() {
     return (
         <>
             <form onSubmit={handleSubmit}>
-                <h1>Create Account</h1>
+                <h1>Criar Conta</h1>
                 <SocialIcons />
-                <span>or use your email for registration</span>
+                <span>ou use seus dados para cadastrar-se</span>
                 <input
                     type="text"
-                    placeholder="Name"
+                    placeholder="Nome"
                     value={name}
                     onChange={(e) => setName(e.target.value)}
+                    required
                 />
                 <input
                     type="phone"
-                    placeholder="Phone"
+                    placeholder="Telefone"
                     value={phone}
                     onChange={(e) => setPhone(e.target.value)}
+                    required
                 />
                 <input
                     type="text"
                     placeholder="CPF"
                     value={cpf}
                     onChange={(e) => setCpf(e.target.value)}
+                    required
                 />
                 <input
                     type="email"
                     placeholder="Email"
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
+                    required
                 />
                 <input
                     type="password"
-                    placeholder="Password"
+                    placeholder="Senha"
                     value={password}
                     onChange={(e) => setPassword(e.target.value)}
+                    required
                 />
-                <button type="submit">Sign Up</button>
+                <button type="submit">Cadastrar</button>
                 {error && <p style={{ color: 'red' }}>{error}</p>}
             </form>
         </>

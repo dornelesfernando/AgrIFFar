@@ -39,7 +39,7 @@ function SignIn() {
             <form onSubmit={handleSubmit}>
                 <h1>Sign In</h1>
                 <SocialIcons />
-                <span>or use your email password</span>
+                <span>ou use seu email e senha</span>
                 <input
                     type="email"
                     placeholder="Email"
@@ -49,13 +49,13 @@ function SignIn() {
                 />
                 <input
                     type="password"
-                    placeholder="Password"
+                    placeholder="Senha"
                     value={password}
                     onChange={(e) => setPassword(e.target.value)}
                     required
                 />
-                <a href="#">Forget Your Password?</a>
-                <button type="submit">Sign In</button>
+                <a href="#">Esqueceu sua senha?</a>
+                <button type="submit">Entrar</button>
                 {error && <p style={{ color: 'red' }}>{error}</p>}
             </form>
         </>
