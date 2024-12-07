@@ -175,7 +175,7 @@ The first step is to create an account or log in if you already have one. If you
 
   **Print of the login screen:**
 
-  ![Login Screen](./images/Signin.png)
+  ![Login Screen](./images/signin.png)
 
 ---
 
