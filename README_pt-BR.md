@@ -2,7 +2,8 @@
 <div align="center">
 
   [![MIT License][license-shield]][license-url]
-  [![LinkedIn][linkedin-shield]][linkedin-url]
+  [![LinkedIn][linkedin-shield]][linkedin-url]  
+  [![wakatime](https://wakatime.com/badge/github/dornelesfernando/AgrIFFar.svg)](https://wakatime.com/badge/github/dornelesfernando/AgrIFFar)
 </div>
 
 <a href="https://github.com/dornelesfernando/AgrIFFar/blob/main/README_pt-BR.md">
